@@ -60,18 +60,31 @@ export class HeaderComponent implements OnInit {
     this.responsiveMenuVisible=false;
   }
 
-  downloadCV(){
+  // downloadCV(){
+  //   this.languageService.translateService.get("Header.cvName").subscribe(val => {
+  //     this.cvName = val
+  //     console.log(val)
+  //     // app url
+  //     let url = window.location.href;
+
+  //     // Open a new window with the CV
+  //     window.open(url + "/../assets/cv/" + this.cvName, "_blank");
+  //   })
+
+  // }
+  downloadCV() {
     this.languageService.translateService.get("Header.cvName").subscribe(val => {
-      this.cvName = val
-      console.log(val)
-      // app url
-      let url = window.location.href;
-
-      // Open a new window with the CV
-      window.open(url + "/../assets/cv/" + this.cvName, "_blank");
-    })
-
+      this.cvName = val;
+      console.log(val);
+      // Get the base URL of the application
+      let baseUrl = window.location.origin;
+      // Construct the full URL to the CV file
+      let cvUrl = `${baseUrl}/assets/cv/${this.cvName}`;
+      // Open the CV in a new window
+      window.open(cvUrl, "_blank");
+    });
   }
+  
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
     getScrollPosition(event) {
