@@ -174,7 +174,7 @@
             "Title": "Hands game",
             "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
             "imgs": ["assets/images/hands-game.png"],
-            "ghLink": "https://github.com/alvinxu/hands-game",
+            "ghLink": "https://github.com/AlvinXu0311/hands-game",
             "demoLink": "https://projects.alvinxu.com/hands-game",
             "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
         },
@@ -182,7 +182,7 @@
             "Title": "Countries viewer",
             "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
             "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/alvinxu/countries-viewer",
+            "ghLink": "https://github.com/AlvinXu0311/countries-viewer",
             "demoLink": "https://projects.alvinxu.com/countries-viewer",
             "Technologies": ["Angular", "RxJS", "SASS", "API"]
         }
@@ -194,42 +194,42 @@
     "OtherProjects.Projects": [{
             "Title": "Pokemon",
             "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
-            "ghLink": "https://github.com/alvinxu/pokemon-angular",
+            "ghLink": "https://github.com/AlvinXu0311/pokemon-angular",
             "demoLink": "https://projects.alvinxu.com/pokemon-list",
             "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
         },
         {
             "Title": "Coming soon page",
             "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
-            "ghLink": "https://github.com/alvinxu/coming-soon-page",
+            "ghLink": "https://github.com/AlvinXu0311/coming-soon-page",
             "demoLink": "https://projects.alvinxu.com/coming-soon-page",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
         {
             "Title": "Four card feature section",
             "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
-            "ghLink": "https://github.com/alvinxu/fourd-card-feature-section",
+            "ghLink": "https://github.com/AlvinXu0311/fourd-card-feature-section",
             "demoLink": "https://projects.alvinxu.com/four-card-feature-section",
             "Technologies": ["Angular", "SASS", "CSS GRID"]
         },
         {
             "Title": "Social proof section",
             "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
-            "ghLink": "https://github.com/alvinxu/social-proof-section",
+            "ghLink": "https://github.com/AlvinXu0311/social-proof-section",
             "demoLink": "https://projects.alvinxu.com/social-proof-section",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "FAQ accordion card",
             "Description": "FAQ accordion with logic and animations made in Angular.",
-            "ghLink": "https://github.com/alvinxu/faq-accordion",
+            "ghLink": "https://github.com/AlvinXu0311/faq-accordion",
             "demoLink": "https://proyectos.alvinxu.com/faq-accordion",
             "Technologies": ["Angular", "CSS GRID", "Angular animations"]
         },
         {
             "Title": "Profile card",
             "Description": "Simple one-page design that features a profile letter with basic information about a person.",
-            "ghLink": "https://github.com/alvinxu/profile-card-component",
+            "ghLink": "https://github.com/AlvinXu0311/profile-card-component",
             "demoLink": "https://proyectos.alvinxu.com/profile-card-component",
             "Technologies": ["Angular", "SASS", "GIT"]
         }
