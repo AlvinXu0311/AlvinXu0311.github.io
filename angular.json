@@ -25,7 +25,6 @@
                         "polyfills": "src/polyfills.ts",
                         "tsConfig": "tsconfig.app.json",
                         "assets": [
-                            "src/favicon.ico",
                             "src/assets",
                             "src/manifest.webmanifest",
                             "src/.htaccess"
@@ -107,7 +106,6 @@
                         "tsConfig": "tsconfig.spec.json",
                         "karmaConfig": "karma.conf.js",
                         "assets": [
-                            "src/favicon.ico",
                             "src/assets",
                             "src/manifest.webmanifest"
                         ],
@@ -141,6 +139,9 @@
                             "devServerTarget": "alvinxu-portfolio:serve:production"
                         }
                     }
+                },
+                "deploy": {
+                  "builder": "angular-cli-ghpages:deploy"
                 }
             }
         }
