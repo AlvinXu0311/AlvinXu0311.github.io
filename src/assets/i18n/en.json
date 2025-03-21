@@ -12,11 +12,12 @@
 
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "In <span class='underline'>3 years of software development</span>, I've covered roles such as <span class='underline'>frontend developer with Angular</span> and <span class='underline'>backend developer with Golang/Python</span>. I love contributing my knowledge to create new things that help solve problems.",
-    "My capabilities also include implementing improvements in systems, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the projects I'm working on.",
-    "I also program things for my personal use, whether as a hobby or for utility.",
+    "In 3 years of software development, I've taken on roles as both a <span class='underline'>frontend developer using Angular</span> and a <span class='underline'>backend developer working with Golang/Python</span>.",
+    "I also have experience in <span class='underline'>machine learning</span>, developing predictive models and integrating analytics into applications to support data-driven decision-making.",
+    "Additionally, I have worked on <span class='underline'>system improvements, site optimization, and standardizing development practices</span> to enhance efficiency and maintainability.",
     "Some of the technologies that I have trained and worked on include (but are not limited to):"
-  ],
+]
+,
 
   "Experience.Title": "Experience",
   "Experience.Jobs": [
@@ -35,9 +36,9 @@
       ]
     },
     {
-      "Tab": "Projex",
+      "Tab": "Dell Technology",
       "Title": "Fullstack developer",
-      "Date": "December 2019 - Present",
+      "Date": "May 2020 - December 2023",
       "Description": [
         "Creation and maintenance of a monitoring platform with graphics in WordPress.",
         "Functional programming in templates and plugins to add the necessary monitoring features.",
@@ -86,14 +87,6 @@
       "Description": [
         "Programming of new functionalities for an existing employee management platform made in Angular and ExpressJS.",
         "Perform refactoring of old code. Ensuring compatibility of every dependency in every update, along with regular Angular update as well."
-      ]
-    },
-    {
-      "Tab": "IEP",
-      "Title": "English teacher",
-      "Date": "January 2015 - July 2015",
-      "Description": [
-        "Teaching English at a basic level to an enrollment of more than 200 students."
       ]
     }
   ],
@@ -233,7 +226,7 @@
       "Technologies": ["Angular", "SASS", "GIT"]
     }
   ],
-  "Contact.Pretitle": "One More Thing",
+  "Contact.Pretitle": "Then",
   "Contact.Title": "Get in touch!",
   "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
   "Contact.Btn": "Say Hello"

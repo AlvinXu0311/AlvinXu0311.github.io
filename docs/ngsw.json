@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1742443823095,
+  "timestamp": 1742525832160,
   "index": "https://alvinxu0311.github.io/index.html",
   "assetGroups": [
     {
@@ -12,12 +12,12 @@
       },
       "urls": [
         "https://alvinxu0311.github.io/index.html",
-        "https://alvinxu0311.github.io/main.dec1c64570dac903.js",
+        "https://alvinxu0311.github.io/main.470eeba7fa8d765d.js",
         "https://alvinxu0311.github.io/manifest.webmanifest",
         "https://alvinxu0311.github.io/polyfills.9d3408304e521a7d.js",
         "https://alvinxu0311.github.io/runtime.d0bbad266080b324.js",
         "https://alvinxu0311.github.io/scripts.68ed26d13e2edc19.js",
-        "https://alvinxu0311.github.io/styles.a8e3d4df04c0ec8e.css"
+        "https://alvinxu0311.github.io/styles.6511961dbca7cc80.css"
       ],
       "patterns": []
     },
@@ -103,6 +103,7 @@
         "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2",
         "https://alvinxu0311.github.io/assets/fonts/SFMono/stylesheet.css",
         "https://alvinxu0311.github.io/assets/i18n/en.json",
+        "https://alvinxu0311.github.io/assets/icons/favicon.ico",
         "https://alvinxu0311.github.io/assets/icons/folder.svg",
         "https://alvinxu0311.github.io/assets/images/abaco-proyect.png",
         "https://alvinxu0311.github.io/assets/images/agrourbana.png",
@@ -121,7 +122,6 @@
         "https://alvinxu0311.github.io/assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
         "https://alvinxu0311.github.io/assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
         "https://alvinxu0311.github.io/assets/images/hands-game.png",
-        "https://alvinxu0311.github.io/assets/images/logo.png",
         "https://alvinxu0311.github.io/assets/images/messages_0 (1).amr",
         "https://alvinxu0311.github.io/assets/images/messages_0 (2).amr",
         "https://alvinxu0311.github.io/assets/images/messages_0 (3).amr",
@@ -253,7 +253,8 @@
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "https://alvinxu0311.github.io/assets/fonts/SFMono/stylesheet.css": "b6c8e6eb227dc3d0ae6b70b6a67930b190533453",
-    "https://alvinxu0311.github.io/assets/i18n/en.json": "97d6f727a92d0f169a065498da64b261fdfdf7d6",
+    "https://alvinxu0311.github.io/assets/i18n/en.json": "e502c10413da776095d72ff8d84c0e6a07a36a8f",
+    "https://alvinxu0311.github.io/assets/icons/favicon.ico": "ac4dd9e74f4c4527a3d7484ed8e38de3c552a3cd",
     "https://alvinxu0311.github.io/assets/icons/folder.svg": "7700bfbf220a2c0efd5ee13c8af79b2a0fc60a8c",
     "https://alvinxu0311.github.io/assets/images/abaco-proyect.png": "0095f0c5f35ac7fe33fabbf9c3a5d51ecc42f0be",
     "https://alvinxu0311.github.io/assets/images/agrourbana.png": "2d06543ad0681ee46580430339dc90d368ba6135",
@@ -272,7 +273,6 @@
     "https://alvinxu0311.github.io/assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png": "fe755e7eb37b64d8eef2297face9e61e6b8a04fd",
     "https://alvinxu0311.github.io/assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png": "ac639360b3debdf32f0829fdf28b8ddd1bd81bc9",
     "https://alvinxu0311.github.io/assets/images/hands-game.png": "cb6edc4aba4248b99dac1aa7826ab87dcda57d51",
-    "https://alvinxu0311.github.io/assets/images/logo.png": "0e83898eff871a9e81000cae89c1f20b2a7e1139",
     "https://alvinxu0311.github.io/assets/images/messages_0 (1).amr": "ecb0302d3ab746cc967f2de72fea882d3981b287",
     "https://alvinxu0311.github.io/assets/images/messages_0 (2).amr": "eb142dd136078da941e014f5258344254ae2f217",
     "https://alvinxu0311.github.io/assets/images/messages_0 (3).amr": "2aab471aaf209c3a0159faa067e7ec83651c9323",
@@ -324,14 +324,14 @@
     "https://alvinxu0311.github.io/fa-solid-900.6a636d7efad00430.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "https://alvinxu0311.github.io/fa-solid-900.6bcd6c9c0a9fcfbf.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
     "https://alvinxu0311.github.io/fa-solid-900.9d21645b52658faa.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
-    "https://alvinxu0311.github.io/index.html": "b5f612bb063df1308aed0ea2cb8de0d18c95f402",
-    "https://alvinxu0311.github.io/main.dec1c64570dac903.js": "b66cd9659c7e11aab25d721c2015cde47d35a8e7",
+    "https://alvinxu0311.github.io/index.html": "d11f5384c70703abd47a9fdd0c8ea82cd10030f8",
+    "https://alvinxu0311.github.io/main.470eeba7fa8d765d.js": "2fb5af05a68e85ddf065963d23bcc39b4c9b29c4",
     "https://alvinxu0311.github.io/manifest.webmanifest": "3d54f7b6647ce40b5e04995088ecbf059a01b5f3",
     "https://alvinxu0311.github.io/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://alvinxu0311.github.io/polyfills.9d3408304e521a7d.js": "0a5250cab6a1dddd25e9fefec5fe407a6ac41315",
     "https://alvinxu0311.github.io/runtime.d0bbad266080b324.js": "2017f08ad4eccd6852a355452cf65a274ee134b7",
     "https://alvinxu0311.github.io/scripts.68ed26d13e2edc19.js": "cffb6dcf1e317b2859024c20248dd0c50ce6b885",
-    "https://alvinxu0311.github.io/styles.a8e3d4df04c0ec8e.css": "137549a7487075954deaf1dfe2af93629bfdbb9d"
+    "https://alvinxu0311.github.io/styles.6511961dbca7cc80.css": "6b133b96f0480e5489356ff8a929f1ae9e16f8b6"
   },
   "navigationUrls": [
     {
