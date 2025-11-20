@@ -94,7 +94,7 @@
                     span {
                         display: block;
                         color: $Green;
-                        font-size: 14px;
+                        font-size: 16px;
                         margin-bottom: 5px;
                     }
                     a {
@@ -119,14 +119,14 @@
         padding: 5px 0px;
         color: inherit;
         margin: 0px;
-        font-size: 13px;
+        font-size: 16px;
         &:hover {
             color: $Green;
         }
     }
     .nav-number {
         color: $Green;
-        font-size: 12px;
+        font-size: 15px;
     }
     .nav-text{
       color: $LightestSlate !important;
@@ -225,7 +225,7 @@
 .flag-text {
     color: inherit;
     margin: 0 10px;
-    font-size: 13px;
+    font-size: 16px;
     font-family: $CodeFont;
 }
 

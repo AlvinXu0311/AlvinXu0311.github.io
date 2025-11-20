@@ -23,7 +23,7 @@ footer{
         padding: 0;
 
         i{
-            font-size: 19px;
+            font-size: 22px;
             color: $LightSlate;
         }
 
@@ -48,7 +48,7 @@ footer{
 
         a{
             font-family: $CodeFont;
-            font-size: 12px;
+            font-size: 15px;
             -webkit-letter-spacing: 0.1em;
             -moz-letter-spacing: 0.1em;
             -ms-letter-spacing: 0.1em;
@@ -63,9 +63,9 @@ footer{
     }
     .footer-credits{
         font-family: $CodeFont;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 1;
-    
+
         position: absolute;
         margin: auto;
         left: 0;

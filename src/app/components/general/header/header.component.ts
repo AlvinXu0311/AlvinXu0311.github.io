@@ -68,8 +68,13 @@ export class HeaderComponent implements OnInit {
       let baseUrl = window.location.origin;
       // Construct the full URL to the CV file
       let cvUrl = `${baseUrl}/assets/cv/${this.cvName}`;
-      // Open the CV in a new window
-      window.open(cvUrl, "_blank");
+      // Create a temporary anchor element and trigger download
+      const link = document.createElement('a');
+      link.href = cvUrl;
+      link.download = this.cvName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     });
   }
   

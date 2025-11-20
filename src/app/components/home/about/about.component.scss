@@ -4,7 +4,12 @@
 
     .about-description{
         margin-top: 30px;
-        max-width: 480px;
+        max-width: 650px;
+
+        p{
+            font-size: 20px;
+            line-height: 1.8;
+        }
     }
 
     .about-img-container{
@@ -44,11 +49,12 @@
         position: relative;
         margin-bottom: 10px;
         padding-left: 20px;
-        font-size: 13px;
+        font-size: 16px;
         font-family: $CodeFont;
         color: $Slate;
         span{
           padding-bottom: 5px;
+          font-size: 16px;
         }
 
         &:before {

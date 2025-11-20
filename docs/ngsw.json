@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1743054381585,
+  "timestamp": 1763615478581,
   "index": "https://alvinxu0311.github.io/index.html",
   "assetGroups": [
     {
@@ -12,12 +12,12 @@
       },
       "urls": [
         "https://alvinxu0311.github.io/index.html",
-        "https://alvinxu0311.github.io/main.75ac4274c8df2edf.js",
+        "https://alvinxu0311.github.io/main.bfb6dc4c44cadd22.js",
         "https://alvinxu0311.github.io/manifest.webmanifest",
         "https://alvinxu0311.github.io/polyfills.9d3408304e521a7d.js",
         "https://alvinxu0311.github.io/runtime.d0bbad266080b324.js",
         "https://alvinxu0311.github.io/scripts.68ed26d13e2edc19.js",
-        "https://alvinxu0311.github.io/styles.12f17f922de7dcef.css"
+        "https://alvinxu0311.github.io/styles.1cd1d40c1e9b5c38.css"
       ],
       "patterns": []
     },
@@ -57,7 +57,7 @@
         "https://alvinxu0311.github.io/SFMono-Semibold.849266397229adad.woff",
         "https://alvinxu0311.github.io/SFMono-SemiboldItalic.0ef5133ede504d56.woff2",
         "https://alvinxu0311.github.io/SFMono-SemiboldItalic.33cb8d6968ae9130.woff",
-        "https://alvinxu0311.github.io/assets/cv/Resume-Alvin.pdf",
+        "https://alvinxu0311.github.io/assets/cv/Resume_Latest_SDE.pdf",
         "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-Light.ttf",
         "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-Light.woff",
         "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-Light.woff2",
@@ -166,7 +166,7 @@
     "https://alvinxu0311.github.io/SFMono-Semibold.849266397229adad.woff": "999e816498b39e99896d09cb18614e5bb700fa8e",
     "https://alvinxu0311.github.io/SFMono-SemiboldItalic.0ef5133ede504d56.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "https://alvinxu0311.github.io/SFMono-SemiboldItalic.33cb8d6968ae9130.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
-    "https://alvinxu0311.github.io/assets/cv/Resume-Alvin.pdf": "50ed0ffd43c3af785b491d7908dafcb481a884cd",
+    "https://alvinxu0311.github.io/assets/cv/Resume_Latest_SDE.pdf": "e08f456db73fd807da7b5dedb506361d433913b6",
     "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-Light.ttf": "8eccfc3783b04d13dec5887a15c3e00fd28bef7c",
     "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-Light.woff": "e3fbab74fa86b97c78ad1b1965b327fe5b2a1adb",
     "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-Light.woff2": "70021b39a260c5f53d2ec5ba30f37163bbe0ef14",
@@ -191,7 +191,7 @@
     "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-SemiboldItalic.ttf": "20394288cf1f8e0d7505a3baff6bd5678e40265a",
     "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-SemiboldItalic.woff": "bd08a8a808ee11f949e216fa019ba25973307b06",
     "https://alvinxu0311.github.io/assets/fonts/Calibre/Calibre-SemiboldItalic.woff2": "1e92e800584c12e6f8364630fbe604d41e9e0008",
-    "https://alvinxu0311.github.io/assets/fonts/Calibre/stylesheet.css": "f1b41f5439f44c529c6adaa066f3aecdb5d617ce",
+    "https://alvinxu0311.github.io/assets/fonts/Calibre/stylesheet.css": "b73925bad0cd9e181b1affcdf95d1d585802db8d",
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-Medium.ttf": "b39e8a4e92530a93ac89151e6342bf658a9e0df1",
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-Medium.woff": "fe6e7b4ca992bf0924c94a0702f6950a53be764e",
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-Medium.woff2": "d43dd506680b943c8c8e35be2dbc8ff240a90ef0",
@@ -210,10 +210,10 @@
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-SemiboldItalic.ttf": "4989b7a02fc633e60bcb6d6189b5ef2c02d38b66",
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "https://alvinxu0311.github.io/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
-    "https://alvinxu0311.github.io/assets/fonts/SFMono/stylesheet.css": "b6c8e6eb227dc3d0ae6b70b6a67930b190533453",
-    "https://alvinxu0311.github.io/assets/i18n/en.json": "6e6f431c77130e16d11ea14d41e193497050ca97",
+    "https://alvinxu0311.github.io/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
+    "https://alvinxu0311.github.io/assets/i18n/en.json": "e2bab283f7569743ab1cf757682ea0a5cb773abc",
     "https://alvinxu0311.github.io/assets/icons/favicon.ico": "ac4dd9e74f4c4527a3d7484ed8e38de3c552a3cd",
-    "https://alvinxu0311.github.io/assets/icons/folder.svg": "7700bfbf220a2c0efd5ee13c8af79b2a0fc60a8c",
+    "https://alvinxu0311.github.io/assets/icons/folder.svg": "cb35a410f96a1187d77f1cbcc6902693c11f4fcc",
     "https://alvinxu0311.github.io/assets/images/Private_Banking_with_ML/capstone-design-post.jpeg": "5015082f5090cebcce2a62c845bc3f870990756f",
     "https://alvinxu0311.github.io/assets/images/andirod_dev/Andriod_Bank.png": "cbc8f7e9dbba0fffb76d001848aec2a91800f803",
     "https://alvinxu0311.github.io/assets/images/coming-soon.jpg": "652f20943b6eb3aaf1b6b9919c51813a0d981016",
@@ -240,14 +240,14 @@
     "https://alvinxu0311.github.io/fa-solid-900.6a636d7efad00430.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "https://alvinxu0311.github.io/fa-solid-900.6bcd6c9c0a9fcfbf.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
     "https://alvinxu0311.github.io/fa-solid-900.9d21645b52658faa.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
-    "https://alvinxu0311.github.io/index.html": "a8b81f9bcfdefb94aa037ec8e1da673882de3139",
-    "https://alvinxu0311.github.io/main.75ac4274c8df2edf.js": "1512165c846877506f1ac0a63fbed068a490dd42",
-    "https://alvinxu0311.github.io/manifest.webmanifest": "3d54f7b6647ce40b5e04995088ecbf059a01b5f3",
+    "https://alvinxu0311.github.io/index.html": "3b4dbd1bb18cf49f7c97c2123ae8ddd6a1eda8e5",
+    "https://alvinxu0311.github.io/main.bfb6dc4c44cadd22.js": "9dee7a78d831663b2c5b23c032f2680a91eb1e27",
+    "https://alvinxu0311.github.io/manifest.webmanifest": "b69ec6f128de85a44d070dd8c01c1bd0ec74b422",
     "https://alvinxu0311.github.io/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://alvinxu0311.github.io/polyfills.9d3408304e521a7d.js": "0a5250cab6a1dddd25e9fefec5fe407a6ac41315",
     "https://alvinxu0311.github.io/runtime.d0bbad266080b324.js": "2017f08ad4eccd6852a355452cf65a274ee134b7",
     "https://alvinxu0311.github.io/scripts.68ed26d13e2edc19.js": "cffb6dcf1e317b2859024c20248dd0c50ce6b885",
-    "https://alvinxu0311.github.io/styles.12f17f922de7dcef.css": "65f62e98d19974a3b78cadec07c32101b77c7ddb"
+    "https://alvinxu0311.github.io/styles.1cd1d40c1e9b5c38.css": "0eccb38991e792f4d4392737f958ef3e79286d9f"
   },
   "navigationUrls": [
     {

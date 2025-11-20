@@ -1,0 +1,123 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Resume-Alvin.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "In <span class='underline'>3 years of software development</span>, I've covered roles such as <span class='underline'>backend developer with Golang/Python/Java</span> and <span class='underline'>frontend developer with Angular</span>.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "In years of software development, I've taken on roles as a <span class='underline'>Fullstack developer using Angular</span> and a <span class='underline'>Golang/Python/Java</span>.",
+    "I also have experience in <span class='underline'>machine learning</span>, developing predictive models and integrating analytics into applications to support data-driven decision-making.",
+    "Additionally, I have worked on <span class='underline'>REST APIs development, CI/CD, and Automation of unit, contract and component tests</span> to enhance efficiency and maintainability.",
+    "Some of the technologies that I have trained and worked on include :"
+]
+,
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "WPI",
+      "Title": "Research Assistant",
+      "Date": "June 2025 - Dec 2025",
+      "Description": [
+        "Conducting research on applying large language models to git/github repos, writing and testing prompt-based code to extract insights, generate summaries, and evaluate model responses.",
+        "Train and implement linear-based model to better predict Long Time serious data."
+      ]
+    },
+    {
+      "Tab": "Dell",
+      "Title": "Software Development Engineer I",
+      "Date": "Mar 2021 - Dec 2023",
+      "Description": [
+        "In Dell-APEX day1 team, eliminated manual configuration overhead by building automated APIs (Python/Go/Java) for Azure HCI integration. Automated setup lifecycle for Windows servers — domain joining, security hardening, cluster config validation — reducing deployment timelines by 20%.",
+        "Streamlined initial server setup by creating an Angular/TypeScript UI for Day 1 operations, reducing configuration errors and increasing efficiency by 15%.",
+        "Led a team of 4 building Jenkins CI/CD pipeline for sanity testing dev images, reducing manual effort and boosting code quality by 30%.",
+        "Automated Day-1 infrastructure provisioning by developing containerized microservices (Docker/Kubernetes) for storage configuration and admin system initialization, reducing service start failure rate by 25%."
+      ]
+    },
+    {
+      "Tab": "Dell",
+      "Title": "Software Development Engineer Internship",
+      "Date": "Mar 2021 - May 2021",
+      "Description": [
+        "Engineered Python/Java APIs to automate the Day-1 setup for VxRail HCI systems, reducing incompatible configuration errors by 15%.",
+        "Built Angular UI components for Day 1 & Day 2 operations teams to pre-config server settings (VLAN, authentication, backup), reducing manual setup steps and boosting configuration efficiency by 10%."
+      ]
+    },
+    {
+      "Tab": "WPI",
+      "Title": "Master of Science in Information Technology",
+      "Date": "Jan 2024 - Dec 2025",
+      "Description": [
+        "GPA: 3.81 / 3.8",
+        "Coursework: LLM, Application Development, Machine Learning, Data Mining, Data Visualization, SQL"
+      ]
+    },
+    {
+      "Tab": "Penn State",
+      "Title": "Bachelor of Science in Computer Science",
+      "Date": "Aug 2015 - May 2020",
+      "Description": [
+        "Coursework: System Programming, Network Programming, Algorithm, Data Structure, Statistics"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Blockchain Document & Payment Platform",
+      "Description": "Built a full-stack blockchain platform (Vue.js + Node.js) for decentralized medical record sharing and XRP payment processing. Backend handled document logic + blockchain integration on Flare Coston2 testnet, reducing record-sharing evaluation time by 50%. Awarded 3rd Place at Harvard University Hackathon (EasyA x Flare Network x XRPL Commons). Harvard University Hackathon, Boston, MA",
+      "imgs": [
+        "assets/images/coming-soon.jpg"
+      ],
+      "Technologies": ["Vue.js", "Node.js", "Blockchain", "XRP"]
+    },
+    {
+      "Title": "Android App Development",
+      "Description": "Built an Android app with 6 pages in Java & JavaScript, simulating banking operations like balance checks, transaction filtering, and sorting with a local SQLite database. Worcester, MA",
+      "imgs": [
+        "assets/images/andirod_dev/Andriod_Bank.png"
+      ],
+      "Technologies": ["Java", "Python", "JavaScript", "SQL"]
+    },
+    {
+      "Title": "American Sign Language Translation",
+      "Description": "Implemented Dense NNs, 2D Conv-RNNs, and DinoV2-enhanced models for spatiotemporal sign recognition. Extracted 3D pose/hand landmarks with MediaPipe; used augmentation (rotation, flipping, masking). Achieved 48.7% Top-1 accuracy; improved semantic matching via similarity distribution visualizations. Worcester, MA",
+      "imgs": [
+        "assets/images/coming-soon.jpg"
+      ],
+      "Technologies": ["TensorFlow", "MediaPipe", "NumPy", "Deep Learning"]
+    },
+    {
+      "Title": "Intelligent Private Banking Portal",
+      "Description": "Developed predictive models with TensorFlow using linear regression and decision tree methodologies to forecast monthly net and category-specific spending with 83% accuracy. Model Development: Implemented and evaluated Dense Neural Networks, Polynomial Regression, and Decision Tree models. Capital One Capstone, State College, PA",
+      "imgs": [
+        "assets/images/Private_Banking_with_ML/capstone-design-post.jpeg"
+      ],
+      "Technologies": ["Python", "TensorFlow"]
+    }
+  ],
+
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Stock Market Forecasting",
+      "Description": "Applied PCA + polynomial feature expansion; cleaned missing data. Trained XGBoost & Random Forest for price forecasting and trend classification. Achieved R²=0.91, MAE=28.3, 87% trend-classification accuracy. Worcester, MA",
+      "ghLink": "",
+      "demoLink": "",
+      "Technologies": ["Python", "XGBoost", "Pandas", "NumPy"]
+    }
+  ],
+  "Contact.Pretitle": "Then",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I will be glad to receive your contact if you want to talk about new opportunities. Email me, and I will reply you ASAP",
+  "Contact.Btn": "Hit Me Up!!"
+}

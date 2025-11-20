@@ -1,17 +1,17 @@
 @import "./../../../../variables.scss";
 .proyects {
   .proyect-container {
-    height: 360px;
-    margin: 100px 0;
+    height: auto;
+    margin: 40px 0;
     .proyect-info-left {
-      width: 50%;
-      margin-right: -57px;
+      width: 100%;
+      margin-right: 0px;
       margin-left: 0px;
       display: table;
     }
     .proyect-info-right {
-      width: 50%;
-      margin-left: -57px;
+      width: 100%;
+      margin-left: 0px;
       margin-right: 0px;
       display: table;
     }
@@ -20,17 +20,18 @@
       vertical-align: middle;
       .feature-proyect {
         text-align: center;
-        font-size: 13px;
+        font-size: 16px;
         font-weight: normal;
         color: $Green;
         font-family: $CodeFont;
-        margin-top: 10px;
+        margin-top: 0px;
         padding-top: 0;
+        margin-bottom: 5px;
       }
       .proyect-name {
         text-align: center;
         font-size: 28px;
-        margin: 0 0 20px;
+        margin: 0 0 10px;
         color: $LightestSlate;
       }
       .proyect-description-box {
@@ -39,10 +40,10 @@
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
         position: relative;
         z-index: 2;
-        padding: 25px;
+        padding: 20px;
         background-color: $LightNavy;
         color: $LightSlate;
-        font-size: 18px;
+        font-size: 20px;
         border-radius: 3px;
       }
       .proyect-skills {
@@ -56,12 +57,12 @@
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         padding: 0;
-        margin: 25px 0 10px;
+        margin: 15px 0 5px;
         list-style: none;
         li {
           margin-right: 0;
           font-family: $CodeFont;
-          font-size: 13px;
+          font-size: 16px;
           color: $Slate;
           margin-bottom: 7px;
           white-space: nowrap;
@@ -140,7 +141,7 @@
         padding: 25px;
         background-color: transparent !important;
         color: $LightSlate;
-        font-size: 18px;
+        font-size: 20px;
         border-radius: 3px;
       }
       .proyect-info-right,

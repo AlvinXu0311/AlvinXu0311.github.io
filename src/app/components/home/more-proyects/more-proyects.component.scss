@@ -59,7 +59,7 @@
             }
 
             .other-proyect-description{
-                font-size: 17px;
+                font-size: 20px;
                 color: $LightSlate;
             }
 
@@ -84,13 +84,14 @@
                 list-style: none;
 
                 li{
-                    font-size: 12px;
+                    font-size: 18px;
                     color: $Slate;
                     line-height: 1.75;
                     margin-right: 15px;
                     font-family: $CodeFont;
                     .underline{
                         padding-bottom: 3.5px;
+                        font-size: 18px;
                     }
                 }
             }

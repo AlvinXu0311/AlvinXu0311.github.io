@@ -4,48 +4,54 @@
   "Header.Item3": "Projects",
   "Header.Item4": "Contact",
   "Header.cvBtn": "Resume",
-  "Header.cvName": "Resume-Alvin.pdf",
-
+  "Header.cvName": "Resume_Latest_SDE.pdf",
   "Banner.Pretitle": "Hello! My name is",
   "Banner.Description": "In <span class='underline'>3 years of software development</span>, I've covered roles such as <span class='underline'>backend developer with Golang/Python/Java</span> and <span class='underline'>frontend developer with Angular</span>.",
   "Banner.ActionBtn": "Get in touch",
-
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "In years of software development, I've taken on roles as a <span class='underline'>Fullstack developer using Angular</span> and a <span class='underline'>Golang/Python/Java</span>.",
-    "I also have experience in <span class='underline'>machine learning</span>, developing predictive models and integrating analytics into applications to support data-driven decision-making.",
-    "Additionally, I have worked on <span class='underline'>REST APIs development, CI/CD, and Automation of unit, contract and component tests</span> to enhance efficiency and maintainability.",
+    "With over 3 years of software development experience, I've worked as a <span class='underline'>Fullstack developer using Angular</span> for frontend and <span class='underline'>backend engineer with Golang, Python, and Java</span> for building scalable systems. I have worked extensively on <span class='underline'>REST APIs development, CI/CD pipelines, and containerization with Docker/Kubernetes</span> to enhance system efficiency, scalability, and maintainability.",
+    "I have hands-on experience in <span class='underline'>machine learning</span>, developing predictive models and integrating analytics into applications to support data-driven decision-making. Currently conducting research on applying <span class='underline'>large language models</span> to GitHub repositories for code insights and summarization.",
     "Some of the technologies that I have trained and worked on include :"
-]
-,
-
+  ],
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
       "Tab": "WPI",
-      "Title": "Master of Science in Information Technology in System Design & Artificial Intelligence",
-      "Date": "an 2024 - Dec 2025",
+      "Title": "Research Assistant",
+      "Date": "June 2025 - Dec 2025",
       "Description": [
-        "Completed Cocoursework: Application Development, Machine Learning, Data Mining, Data Visualization, Database Desgin"
+        "Conducting research on applying large language models to git/github repos, writing and testing prompt-based code to extract insights, generate summaries, and evaluate model responses.",
+        "Train and implement linear-based model to better predict Long Time serious data."
+      ]
+    },
+    {
+      "Tab": "Dell",
+      "Title": "Software Development Engineer I",
+      "Date": "Mar 2021 - Dec 2023",
+      "Description": [
+        "In Dell-APEX day1 team, eliminated manual configuration overhead by building automated APIs (Python/Go/Java) for Azure HCI integration. Automated setup lifecycle for Windows servers — domain joining, security hardening, cluster config validation — reducing deployment timelines by 20%.",
+        "Streamlined initial server setup by creating an Angular/TypeScript UI for Day 1 operations, reducing configuration errors and increasing efficiency by 15%.",
+        "Led a team of 4 building Jenkins CI/CD pipeline for sanity testing dev images, reducing manual effort and boosting code quality by 30%.",
+        "Automated Day-1 infrastructure provisioning by developing containerized microservices (Docker/Kubernetes) for storage configuration and admin system initialization, reducing service start failure rate by 25%."
+      ]
+    },
+    {
+      "Tab": "Dell",
+      "Title": "Software Development Engineer Internship",
+      "Date": "Mar 2021 - May 2021",
+      "Description": [
+        "Engineered Python/Java APIs to automate the Day-1 setup for VxRail HCI systems, reducing incompatible configuration errors by 15%.",
+        "Built Angular UI components for Day 1 & Day 2 operations teams to pre-config server settings (VLAN, authentication, backup), reducing manual setup steps and boosting configuration efficiency by 10%."
       ]
     },
     {
       "Tab": "WPI",
-      "Title": "Research Assistant",
-      "Date": "May 2024 - July 2024",
+      "Title": "Master of Science in Information Technology",
+      "Date": "Jan 2024 - Dec 2025",
       "Description": [
-        "Reviewed and discussed blockchain research papers to design innovative financial tracking ideas.",
-        "Containerized 2 local services to enhance scalability, stability, and deployment efficiency with 20%."
-      ]
-    },
-    {
-      "Tab": "Dell Technology",
-      "Title": "Fullstack developer",
-      "Date": "May 2020 - December 2023",
-      "Description": [
-        "Front-End Development: Enhanced user experience by designing intuitive UI components (filters, forms, dropdowns) for initial setup, improving interaction and data presentation. Achieved over 93% test coverage through diligent contract and unit testing of modules",
-        "Back-End Development: Improved server deployment reliability by 10% through the introduction of pre-validation steps and authored APIs to support server clustering. Established a robust network and storage environment for both Windows and Linux servers. Developed a SQL database for managing server configurations and user credentials,ensuring thorough testing with over 80% coverage.",
-        "Automation & Testing: Spearheaded the development of automated testing pipelines for cluster deployments, accommodating 6 configurations, which enhanced adaptability and efficiency. Proactively maintained CI/CD pipelines,addressing bugs and technical issues to streamline processes."
+        "GPA: 3.81 / 3.8",
+        "Coursework: LLM, Application Development, Machine Learning, Data Mining, Data Visualization, SQL"
       ]
     },
     {
@@ -53,16 +59,7 @@
       "Title": "Bachelor of Science in Computer Science",
       "Date": "Aug 2015 - May 2020",
       "Description": [
-        "Completed coursework: System Programming, Network Programming, Algorithms, Data Structures, and Statistics."
-      ]
-    },
-    {
-      "Tab": "ZF Group",
-      "Title": "Software Development Engineer Intern(Front-end)",
-      "Date": "May 2018 - Aug 2018",
-      "Description": [
-        "Engineered a document management system with SharePoint, customizing interfaces for 12 different departments to facilitate a paperless office environment and an access-based file sharing platform.",
-        "Modified CSS, HTML, and JavaScript to enhance visual appeal and usability; optimized layout with business brand identity, improving user experience and reducing process time by 15%."
+        "Coursework: System Programming, Network Programming, Algorithm, Data Structure, Statistics"
       ]
     }
   ],
@@ -71,76 +68,58 @@
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "Android App Development",
-      "Description": "Built an Android app with 6 pages in Java & JavaScript, simulating banking operations like balance checks, transaction filtering, and sorting with a local SQLite database.",
-      "imgs": [
-        "assets/images/andirod_dev/Andriod_Bank.png"
-      ],
-      "Technologies": ["Java", "Python", "JavaScript", "SQL"]
-    },
-
-    {
-      "Title": "Intelligent Private Banking Portal",
-      "Description": "Developed predictive models with TensorFlow using linear regression and decision tree methodologies to forecast monthly net and category-specific spending with 83% accuracy.",
-      "imgs": [
-        "assets/images/Private_Banking_with_ML/capstone-design-post.jpeg"
-      ],
-      "Technologies": ["Python", "TensorFlow"]
-    },
-
-    {
-      "Title": "Coming Soon",
-      "Description": "Currently working on my next project — stay tuned for updates as I continue building and refining new ideas!",
+      "Title": "Blockchain Document & Payment Platform",
+      "Description": "Built a full-stack blockchain platform (Vue.js + Node.js) for decentralized medical record sharing and XRP payment processing. Backend handled document logic + blockchain integration on Flare Coston2 testnet, reducing record-sharing evaluation time by 50%.<br>Awarded 3rd Place at Harvard University Hackathon (EasyA x Flare Network x XRPL Commons). Harvard University Hackathon, Boston, MA",
       "imgs": [
         "assets/images/coming-soon.jpg"
       ],
-      "Technologies": []
+      "Technologies": ["Vue.js", "Node.js", "Blockchain", "XRP"],
+      "showImage": false,
+      "ghLink": "https://github.com/AlvinXu0311/Flare-x-XRPL-Hackathon",
+      "demoLink": ""
+    },
+    {
+      "Title": "Android App Development",
+      "Description": "Developed an Android application in Java and JavaScript simulating core banking operations, including balance inquiry, transaction history filtering, and dynamic sorting, backed by a structured SQLite database for persistent local storage.<br>Engineered a normalized relational schema with interconnected tables; automated data generation using Python scripts and implemented backend data handling and query logic in Java to optimize retrieval performance and application responsiveness. Worcester Polytechnic Institute, Worcester, MA",
+      "imgs": [
+        "assets/images/andirod_dev/Andriod_Bank.png"
+      ],
+      "Technologies": ["Java", "Python", "JavaScript", "SQL"],
+      "showImage": false,
+      "ghLink": "https://github.com/AlvinXu0311/DB_Simple_App",
+      "demoLink": ""
+    },
+    {
+      "Title": "American Sign Language Translation",
+      "Description": "Implemented Dense NNs, 2D Conv-RNNs, and DinoV2-enhanced models for spatiotemporal sign recognition. Extracted 3D pose/hand landmarks with MediaPipe; used augmentation (rotation, flipping, masking).<br>Achieved 48.7% Top-1 accuracy; improved semantic matching via similarity distribution visualizations. Worcester, MA",
+      "imgs": [
+        "assets/images/coming-soon.jpg"
+      ],
+      "Technologies": ["TensorFlow", "MediaPipe", "NumPy", "Deep Learning"],
+      "showImage": false,
+      "ghLink": "",
+      "demoLink": ""
+    },
+    {
+      "Title": "Intelligent Private Banking Portal",
+      "Description": "Developed predictive models with TensorFlow using linear regression and decision tree methodologies to forecast monthly net and category-specific spending with 83% accuracy.<br>Model Development: Implemented and evaluated Dense Neural Networks, Polynomial Regression, and Decision Tree models. Capital One Capstone, State College, PA",
+      "imgs": [
+        "assets/images/Private_Banking_with_ML/capstone-design-post.jpeg"
+      ],
+      "Technologies": ["Python", "TensorFlow"],
+      "showImage": false,
+      "ghLink": "",
+      "demoLink": ""
     }
   ],
-
   "OtherProjects.Title": "More projects",
   "OtherProjects.Projects": [
     {
-      "Title": "Pokemon",
-      "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
-      "ghLink": "https://github.com/AlvinXu0311/pokemon-angular",
-      "demoLink": "https://projects.alvinxu.com/pokemon-list",
-      "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
-    },
-    {
-      "Title": "Coming soon page",
-      "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
-      "ghLink": "https://github.com/AlvinXu0311/coming-soon-page",
-      "demoLink": "https://projects.alvinxu.com/coming-soon-page",
-      "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
-    },
-    {
-      "Title": "Four card feature section",
-      "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
-      "ghLink": "https://github.com/AlvinXu0311/fourd-card-feature-section",
-      "demoLink": "https://projects.alvinxu.com/four-card-feature-section",
-      "Technologies": ["Angular", "SASS", "CSS GRID"]
-    },
-    {
-      "Title": "Social proof section",
-      "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
-      "ghLink": "https://github.com/AlvinXu0311/social-proof-section",
-      "demoLink": "https://projects.alvinxu.com/social-proof-section",
-      "Technologies": ["Angular", "CSS GRID", "GIT"]
-    },
-    {
-      "Title": "FAQ accordion card",
-      "Description": "FAQ accordion with logic and animations made in Angular.",
-      "ghLink": "https://github.com/AlvinXu0311/faq-accordion",
-      "demoLink": "https://proyectos.alvinxu.com/faq-accordion",
-      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
-    },
-    {
-      "Title": "Profile card",
-      "Description": "Simple one-page design that features a profile letter with basic information about a person.",
-      "ghLink": "https://github.com/AlvinXu0311/profile-card-component",
-      "demoLink": "https://proyectos.alvinxu.com/profile-card-component",
-      "Technologies": ["Angular", "SASS", "GIT"]
+      "Title": "Stock Market Forecasting",
+      "Description": "Applied PCA + polynomial feature expansion; cleaned missing data. Trained XGBoost & Random Forest for price forecasting and trend classification. Achieved R²=0.91, MAE=28.3, 87% trend-classification accuracy. Worcester, MA",
+      "ghLink": "",
+      "demoLink": "",
+      "Technologies": ["Python", "XGBoost", "Pandas", "NumPy"]
     }
   ],
   "Contact.Pretitle": "Then",
