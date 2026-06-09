@@ -4,14 +4,14 @@
   "Header.Item3": "Projects",
   "Header.Item4": "Contact",
   "Header.cvBtn": "Resume",
-  "Header.cvName": "Resume_Latest_SDE.pdf",
+  "Header.cvName": "Resume_Combined.pdf",
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "In <span class='underline'>3 years of software development</span>, I've covered roles such as <span class='underline'>backend developer with Golang/Python/Java</span> and <span class='underline'>frontend developer with Angular</span>.",
+  "Banner.Description": "Across <span class='underline'>3+ years in industry and research</span>, I build <span class='underline'>backend systems with Go/Python/Java</span>, <span class='underline'>full-stack apps with Angular/React</span>, and <span class='underline'>ML & LLM-powered applications</span> — from data pipelines to RAG systems.",
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "With over 3 years of software development experience, I've worked as a <span class='underline'>Fullstack developer using Angular</span> for frontend and <span class='underline'>backend engineer with Golang, Python, and Java</span> for building scalable systems. I have worked extensively on <span class='underline'>REST APIs development, CI/CD pipelines, and containerization with Docker/Kubernetes</span> to enhance system efficiency, scalability, and maintainability.",
-    "I have hands-on experience in <span class='underline'>machine learning</span>, developing predictive models and integrating analytics into applications to support data-driven decision-making. Currently conducting research on applying <span class='underline'>large language models</span> to GitHub repositories for code insights and summarization.",
+    "With 3+ years of software development experience, I've worked as a <span class='underline'>full-stack developer using Angular/React</span> for frontend and a <span class='underline'>backend engineer with Golang, Python, and Java</span> for building scalable systems. I have worked extensively on <span class='underline'>REST APIs, CI/CD pipelines, and containerization with Docker/Kubernetes</span> to improve system efficiency, scalability, and maintainability.",
+    "I also have hands-on experience in <span class='underline'>machine learning and LLM applications</span> — building predictive models, ETL/data pipelines, and <span class='underline'>retrieval-augmented (RAG) systems</span>. As a <span class='underline'>Research Assistant at WPI</span>, I currently work on probabilistic time-series forecasting (TimePre) and scalable computer-vision benchmarks (CV-Arena).",
     "Some of the technologies that I have trained and worked on include :"
   ],
   "Experience.Title": "Experience",
@@ -19,10 +19,11 @@
     {
       "Tab": "WPI",
       "Title": "Research Assistant",
-      "Date": "June 2025 - Dec 2025",
+      "Date": "July 2025 - Current",
       "Description": [
-        "Conducting research on applying large language models to git/github repos, writing and testing prompt-based code to extract insights, generate summaries, and evaluate model responses.",
-        "Train and implement linear-based model to better predict Long Time serious data."
+        "TimePre 2: Developed an ML framework for probabilistic forecasting with multi-hypothesis density estimation and a channel-based reversible normalization technique to mitigate distribution shifts and preserve long-horizon non-stationary patterns.",
+        "CV-Arena 2: Built the Pro-Edit dataset and a Resolution Baseline Agent, introducing a secure, scalable benchmark with a feedback-loop agentic architecture for collecting and curating high-fidelity image data.",
+        "Position Paper – Moral Auditing of LLM Agents: Proposed a framework for auditing RLHF-trained LLMs as non-neutral negotiation agents, designing a five-scenario bargaining and persuasion stress test that revealed a cooperative-assistant prior weakening under asymmetric pressure."
       ]
     },
     {
@@ -31,9 +32,9 @@
       "Date": "Mar 2021 - Dec 2023",
       "Description": [
         "In Dell-APEX day1 team, eliminated manual configuration overhead by building automated APIs (Python/Go/Java) for Azure HCI integration. Automated setup lifecycle for Windows servers — domain joining, security hardening, cluster config validation — reducing deployment timelines by 20%.",
-        "Streamlined initial server setup by creating an Angular/TypeScript UI for Day 1 operations, reducing configuration errors and increasing efficiency by 15%.",
-        "Led a team of 4 building Jenkins CI/CD pipeline for sanity testing dev images, reducing manual effort and boosting code quality by 30%.",
-        "Automated Day-1 infrastructure provisioning by developing containerized microservices (Docker/Kubernetes) for storage configuration and admin system initialization, reducing service start failure rate by 25%."
+        "Streamlined initial server setup by creating a React/Angular/TypeScript UI for Day 1 operations with dynamic forms, validation flows, and data visualizations, reducing configuration errors and increasing efficiency by 15%.",
+        "Led a team of 4 building a Jenkins CI/CD pipeline for sanity testing dev images, reducing manual effort and boosting code quality by 30%.",
+        "Automated Day-1 infrastructure provisioning by developing containerized microservices (Docker/Kubernetes), integrating MongoDB and PostgreSQL APIs for configuration storage, validation, and retrieval, reducing service start failure rate by 25%."
       ]
     },
     {
@@ -47,16 +48,16 @@
     },
     {
       "Tab": "WPI",
-      "Title": "Master of Science in Information Technology",
+      "Title": "M.S. in Information Technology — System Design & AI",
       "Date": "Jan 2024 - Dec 2025",
       "Description": [
-        "GPA: 3.81 / 3.8",
+        "GPA: 3.82 / 4.0",
         "Coursework: LLM, Application Development, Machine Learning, Data Mining, Data Visualization, SQL"
       ]
     },
     {
       "Tab": "Penn State",
-      "Title": "Bachelor of Science in Computer Science",
+      "Title": "B.S. in Computer Science, Minor in Mathematics",
       "Date": "Aug 2015 - May 2020",
       "Description": [
         "Coursework: System Programming, Network Programming, Algorithm, Data Structure, Statistics"
@@ -67,6 +68,17 @@
   "FeatureProjects.Title": "My projects",
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
+    {
+      "Title": "Agentic Advising Assistant",
+      "Description": "Architected a production-grade agentic advising platform using FastAPI, LangChain, and Google Gemini 2.5 Pro — orchestrating an Intent Classification Agent and a ReAct Adviser Agent over a Hybrid RAG pipeline (SQLite + ChromaDB) to automate complex academic advising workflows.<br>Built a multimodal PDF extraction pipeline via Gemini Vision API, optimized the ReAct loop with 7 specialized tools, real-time SSE streaming, and Redis session memory; containerized with Docker Compose, achieving ~10s avg latency and a projected 60% reduction in manual advising workload. Worcester, MA",
+      "imgs": [
+        "assets/images/coming-soon.jpg"
+      ],
+      "Technologies": ["FastAPI", "LangChain", "RAG", "ChromaDB", "Redis", "Docker"],
+      "showImage": false,
+      "ghLink": "",
+      "demoLink": ""
+    },
     {
       "Title": "Blockchain Document & Payment Platform",
       "Description": "Built a full-stack blockchain platform (Vue.js + Node.js) for decentralized medical record sharing and XRP payment processing. Backend handled document logic + blockchain integration on Flare Coston2 testnet, reducing record-sharing evaluation time by 50%.<br>Awarded 3rd Place at Harvard University Hackathon (EasyA x Flare Network x XRPL Commons). Harvard University Hackathon, Boston, MA",
