@@ -4,8 +4,14 @@
     background: $Navy;
     font-family: $CodeFont;
     .menu-ul{
+      // ngbNav applies bootstrap's .nav (align-items: stretch), which left the
+      // bordered Resume button sitting taller than the plain text links.
+      align-items: center;
+
       li{
         margin: 0px 13px;
+        display: flex;
+        align-items: center;
       }
       // First and Last li has no margin
       li:first-child{
@@ -70,7 +76,7 @@
         right: -625px;
         margin-left: auto;
         font-family: $CodeFont;
-        box-shadow: rgba(2, 12, 27, 0.7) -10px 0px 30px -15px;
+        box-shadow: $Shadow -10px 0px 30px -15px;
         padding: 25px;
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
         nav {
@@ -114,12 +120,18 @@
     }
     .cv-btn{
       padding: 7px 15px !important;
+      display: inline-flex;
+      align-items: center;
+      line-height: 1;
     }
+    // Not a flex container on purpose: the number and label are separated by a
+    // whitespace text node that flex would collapse.
     .nav-link {
         padding: 5px 0px;
         color: inherit;
         margin: 0px;
         font-size: 16px;
+        line-height: 1;
         &:hover {
             color: $Green;
         }
@@ -196,7 +208,7 @@
 
 .nav-shadow {
     height: 70px;
-    box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+    box-shadow: 0 10px 30px -10px $Shadow;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
@@ -233,29 +245,29 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 4px;
-    background: #172a45;
+    background: $LightNavy;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .language-container-selector {
     margin: 0 !important;
-    color: #cbd5f5 !important;
+    color: $LightestSlate !important;
     padding: 11px 8px !important;
     text-align: center;
-    background: #0A7029 !important;
+    background: $LightestNavy !important;
 }
 
 .language-container-selector.active {
     margin: 0 !important;
-    color: #cbd5f5 !important;
+    color: $LightestSlate !important;
     padding: 11px 8px !important;
     text-align: center;
-    background: #172a45 !important;
+    background: $LightNavy !important;
 }
 
 .language-container-selector:hover {
-    background: #172a45 !important;
+    background: $LightNavy !important;
 }
 
 // .language-container-selector.active:after {
@@ -274,7 +286,7 @@
     font-size: 10px;
     height: 10px;
     width: 10px;
-    fill: #FEDE00;
+    fill: $Green;
 }
 
 ::ng-deep .dropdown-toggle::after {
@@ -284,17 +296,17 @@
 ::ng-deep .dropdown-menu.show {
     padding: 0 !important;
     border-radius: 7px !important;
-    background: #DBE8D8 !important;
+    background: $LightNavy !important;
     margin-top: 10px !important;
     left: 20px !important;
-    box-shadow: 0 10px 30px -15px rgb(2 12 27 / 70%);
+    box-shadow: 0 10px 30px -15px $Shadow;
 }
 
 .arrow-active {
     font-size: 20px;
     height: 20px;
     width: 25px;
-    fill: #FEDE00;
+    fill: $Green;
     visibility: hidden;
 }
 

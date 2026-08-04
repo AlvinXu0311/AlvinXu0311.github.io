@@ -51,7 +51,7 @@ body {
     margin-right: 10px;
     font-family: $CodeFont;
     font-weight: normal;
-    color: $Green;
+    color: $Sand;
     font-size: 20px;
     position: relative;
     bottom: 4px;
@@ -69,10 +69,12 @@ body {
   }
 }
 
+/* Solid 浅茶绿 fill — the buttons (Resume / Get in touch / Hit Me Up) are where
+   the yellow carries the most weight on the page. */
 .main-btn {
-  color: $Green;
-  background-color: transparent;
-  border: 1px solid $Green;
+  color: $LightestSlate;
+  background-color: $SandSoft;
+  border: 1px solid $SandSoft;
   border-radius: 3px;
   font-size: 16px;
   font-family: $CodeFont;
@@ -87,7 +89,10 @@ body {
   &:hover,
   &:focus,
   &:active {
-    background-color: rgba(100, 255, 218, 0.07);
+    color: $LightestSlate;
+    background-color: $SandDeepFill;
+    border-color: $SandDeepFill;
+    box-shadow: 0 8px 18px -10px $Shadow;
     outline: none;
   }
 }
@@ -122,6 +127,62 @@ a {
 .underline:hover:after {
   width: 100%;
   left: 0;
+}
+
+/* Technology chips. Small components carry the warmer Morandi hues so the
+   page is not all blue; the fill cycles across the four swatches. */
+.technology {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-family: $CodeFont;
+  font-size: 15px;
+  line-height: 1.5;
+  color: $LightestSlate;
+  background-color: rgba($GreenSoft, 0.45);
+}
+li:nth-child(4n + 2) > .technology {
+  background-color: rgba($SageSoft, 0.6);
+}
+li:nth-child(4n + 3) > .technology {
+  background-color: rgba($SandSoft, 0.55);
+}
+li:nth-child(4n + 4) > .technology {
+  background-color: rgba($ClaySoft, 0.65);
+}
+
+/* Lead-in title for work without a public link yet. */
+.paper-title {
+  color: $Green;
+  font-weight: 500;
+}
+
+/* Inline links to papers inside translated (innerHTML) paragraphs. */
+.paper-link {
+  display: inline;
+  font-weight: 500;
+  color: $Green;
+  border-bottom: 1px solid rgba($Green, 0.4);
+
+  &:hover {
+    color: $Green;
+    border-bottom-color: $Green;
+  }
+}
+
+.paper-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border: 1px solid rgba($Clay, 0.45);
+  background-color: rgba($ClaySoft, 0.55);
+  border-radius: 10px;
+  color: $Clay;
+  font-family: $CodeFont;
+  font-size: 0.65em;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
 @media (min-width: 768px) and (max-width: 1100px) {

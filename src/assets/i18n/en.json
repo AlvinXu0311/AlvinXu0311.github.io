@@ -11,7 +11,7 @@
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
     "With 3+ years of software development experience, I've worked as a <span class='underline'>full-stack developer using Angular/React</span> for frontend and a <span class='underline'>backend engineer with Golang, Python, and Java</span> for building scalable systems. I have worked extensively on <span class='underline'>REST APIs, CI/CD pipelines, and containerization with Docker/Kubernetes</span> to improve system efficiency, scalability, and maintainability.",
-    "I also have hands-on experience in <span class='underline'>machine learning and LLM applications</span> — building predictive models, ETL/data pipelines, and <span class='underline'>retrieval-augmented (RAG) systems</span>. As a <span class='underline'>Research Assistant at WPI</span>, I currently work on probabilistic time-series forecasting (TimePre) and scalable computer-vision benchmarks (CV-Arena).",
+    "I also have hands-on experience in <span class='underline'>machine learning and LLM applications</span> — building predictive models, ETL/data pipelines, and <span class='underline'>retrieval-augmented (RAG) systems</span>. As a <span class='underline'>Research Assistant at WPI</span>, I currently work on probabilistic time-series forecasting (<a class='paper-link' href='https://arxiv.org/abs/2511.18539v2' target='_blank' rel='noopener noreferrer'>TimePre</a>, accepted at TMLR) and scalable computer-vision benchmarks (<a class='paper-link' href='https://arxiv.org/abs/2606.00931v1' target='_blank' rel='noopener noreferrer'>CV-Arena</a>).",
     "Some of the technologies that I have trained and worked on include :"
   ],
   "Experience.Title": "Experience",
@@ -21,9 +21,9 @@
       "Title": "Research Assistant",
       "Date": "July 2025 - Current",
       "Description": [
-        "TimePre 2: Developed an ML framework for probabilistic forecasting with multi-hypothesis density estimation and a channel-based reversible normalization technique to mitigate distribution shifts and preserve long-horizon non-stationary patterns.",
-        "CV-Arena 2: Built the Pro-Edit dataset and a Resolution Baseline Agent, introducing a secure, scalable benchmark with a feedback-loop agentic architecture for collecting and curating high-fidelity image data.",
-        "Position Paper – Moral Auditing of LLM Agents: Proposed a framework for auditing RLHF-trained LLMs as non-neutral negotiation agents, designing a five-scenario bargaining and persuasion stress test that revealed a cooperative-assistant prior weakening under asymmetric pressure."
+        "<a class='paper-link' href='https://arxiv.org/abs/2511.18539v2' target='_blank' rel='noopener noreferrer'>TimePre</a> <span class='paper-badge'>Accepted at TMLR</span>: Developed an ML framework for probabilistic forecasting with multi-hypothesis density estimation and a channel-based reversible normalization technique to mitigate distribution shifts and preserve long-horizon non-stationary patterns.",
+        "<a class='paper-link' href='https://arxiv.org/abs/2606.00931v1' target='_blank' rel='noopener noreferrer'>CV-Arena</a>: Built the Pro-Edit dataset and a Resolution Baseline Agent, introducing a secure, scalable benchmark with a feedback-loop agentic architecture for collecting and curating high-fidelity image data.",
+        "<span class='paper-title'>Position Paper – Moral Auditing of LLM Agents</span>: Proposed a framework for auditing RLHF-trained LLMs as non-neutral negotiation agents, designing a five-scenario bargaining and persuasion stress test that revealed a cooperative-assistant prior weakening under asymmetric pressure."
       ]
     },
     {
@@ -76,7 +76,7 @@
       ],
       "Technologies": ["FastAPI", "LangChain", "RAG", "ChromaDB", "Redis", "Docker"],
       "showImage": false,
-      "ghLink": "",
+      "ghLink": "https://github.com/AlvinXu0311/AI-Adviser",
       "demoLink": ""
     },
     {

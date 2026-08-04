@@ -12,8 +12,8 @@ LINKEDIN  = "https://www.linkedin.com/in/lingyu-xu-2587491ba/"
 EMAIL     = "mailto:lxu7@wpi.edu"
 
 # Project links (set to a URL string to make the lead-in label a hyperlink).
-TIMEPRE_URL = "https://arxiv.org/abs/2511.18539"
-CVARENA_URL = "https://arxiv.org/abs/2606.00931"
+TIMEPRE_URL = "https://arxiv.org/abs/2511.18539v2"
+CVARENA_URL = "https://arxiv.org/abs/2606.00931v1"
 
 class Resume(FPDF):
     def header(self):
@@ -147,7 +147,7 @@ bullet("Coursework: Data Structures, Algorithms, System Programming, Network Pro
 # ---------------- EXPERIENCE ----------------
 section("Experience")
 heading("Research Assistant", "July 2025 - Current", "Worcester Polytechnic Institute", "Worcester, MA")
-lead("TimePre: ", "Developed an advanced ML framework for probabilistic forecasting with multi-hypothesis density "
+lead("TimePre (Accepted at TMLR): ", "Developed an advanced ML framework for probabilistic forecasting with multi-hypothesis density "
      "estimation and a channel-based reversible normalization technique to mitigate distribution shifts and preserve "
      "long-horizon non-stationary patterns during de-normalization. Built Python data-processing, evaluation, and "
      "validation workflows across multiple time-series datasets to improve reliability under distribution shifts.",

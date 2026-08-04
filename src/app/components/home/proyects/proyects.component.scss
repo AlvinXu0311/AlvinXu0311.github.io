@@ -1,227 +1,250 @@
 @import "./../../../../variables.scss";
-.proyects {
-  .proyect-container {
-    height: auto;
-    margin: 40px 0;
-    .proyect-info-left {
-      width: 100%;
-      margin-right: 0px;
-      margin-left: 0px;
-      display: table;
-    }
-    .proyect-info-right {
-      width: 100%;
-      margin-left: 0px;
-      margin-right: 0px;
-      display: table;
-    }
-    .proyect-box {
-      display: table-cell;
-      vertical-align: middle;
-      .feature-proyect {
-        text-align: center;
-        font-size: 16px;
-        font-weight: normal;
-        color: $Green;
-        font-family: $CodeFont;
-        margin-top: 0px;
-        padding-top: 0;
-        margin-bottom: 5px;
-      }
-      .proyect-name {
-        text-align: center;
-        font-size: 28px;
-        margin: 0 0 10px;
-        color: $LightestSlate;
-      }
-      .proyect-description-box {
-        box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
-        -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-        position: relative;
-        z-index: 2;
-        padding: 20px;
-        background-color: $LightNavy;
-        color: $LightSlate;
-        font-size: 20px;
-        border-radius: 3px;
-      }
-      .proyect-skills {
-        position: relative;
-        z-index: 2;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 0;
-        margin: 15px 0 5px;
-        list-style: none;
-        li {
-          margin-right: 0;
-          font-family: $CodeFont;
-          font-size: 16px;
-          color: $Slate;
-          margin-bottom: 7px;
-          white-space: nowrap;
-          .technology {
-            padding: 5px;
-            padding-bottom: 5px;
-          }
-        }
-      }
-      .proyect-links {
-        margin-top: 10px;
-        i {
-          font-size: 22px;
-        }
-      }
-    }
+
+/* ---------------------------------------------------------------------------
+   Flat project grid. Every project gets the same card: optional cover image,
+   links, title, copy, technology chips. No carousel, no alternating sides.
+   --------------------------------------------------------------------------- */
+
+.proyect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 24px;
+  margin-top: 45px;
+}
+
+.proyect-card {
+  --accent: #{$GreenSoft};
+
+  display: flex;
+  flex-direction: column;
+  background-color: $White;
+  border: 1px solid $LightestNavy;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
+              border-color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
+              box-shadow 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  // Flat top rule instead of a drop shadow; the hue rotates per card.
+  &:before {
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: var(--accent);
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 12px 24px -18px $Shadow;
+  }
+
+  // Cycles with the technology chips: 梦幻蓝 / 浅灰绿 / 浅茶绿 / 泡沫粉.
+  &[data-accent="1"] { --accent: #{$SageSoft}; }
+  &[data-accent="2"] { --accent: #{$SandSoft}; }
+  &[data-accent="3"] { --accent: #{$ClaySoft}; }
+}
+
+.proyect-card-media {
+  background-color: $LightNavy;
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
   }
 }
 
-.owl-carousel-o {
-  width: 600px;
-}
-.img-feature-proyect-container {
-  display: none;
-}
-
-@media (min-width: 768px) and (max-width: 1300px) {
-  .owl-carousel-o {
-    display: none;
-  }
-  .img-feature-proyect-container {
-    width: 50%;
-    display: table !important;
-    height: -webkit-fill-available;
-    .img-feature-proyect-box {
-      display: table-cell;
-      vertical-align: middle;
-    }
-    .img-feature-proyect {
-      width: 100%;
-    }
-  }
-  .proyect-info-right,
-  .proyect-info-left {
-    width: 50%;
-  }
+.proyect-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 24px 26px 26px;
 }
 
-@media (min-width: 768px) {
-  .proyect-info-right,
-  .proyect-info-left {
-    background-image: none !important;
-  }
+.proyect-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
 
-@media (max-width: 768px) {
-  .owl-carousel-o {
-    display: none;
-  }
-  .proyects {
-    .proyect-container {
-      height: 100% !important;
-      margin: 33px 0 !important;
-      .proyect-info-left {
-        width: 100%;
-      }
-      .proyect-info-right {
-        text-align: center;
-        width: 100%;
-      }
-      .proyect-description-box {
-        padding: 0px !important;
-        box-shadow: none !important;
-        position: relative;
-        z-index: 2;
-        padding: 25px;
-        background-color: transparent !important;
-        color: $LightSlate;
-        font-size: 20px;
-        border-radius: 3px;
-      }
-      .proyect-info-right,
-      .proyect-info-left {
-        text-align: center;
-        display: block !important;
-        margin: 0px !important;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 3px;
-        .proyect-box {
-          display: block;
-        }
-      }
-      .img-feature-proyect-container {
-        display: none;
-      }
-    }
-    .proyect-info-right,
-    .proyect-info-left {
-      padding: 0px;
-    }
-    .text-right,
-    .text-left {
-      text-align: center !important;
-    }
-    .justify-content-end {
-      justify-content: center !important;
-    }
-    .justify-content-start {
-      justify-content: center !important;
-    }
+.proyect-card-label {
+  font-family: $CodeFont;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $Sand;
+}
 
-    .proyect-info-right .proyect-box,
-    .proyect-info-left .proyect-box {
-      padding: 20px;
-      background: #0a7029e3;
+.proyect-card-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  a {
+    color: $LightSlate;
+    line-height: 1;
+    transition: color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    &:hover {
+      color: $Green;
     }
+  }
+
+  i {
+    font-size: 19px;
   }
 }
 
-::ng-deep .owl-theme .owl-dots .owl-dot.active span,
-::ng-deep .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: white !important;
+.proyect-card-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+  color: $LightestSlate;
 }
 
-::ng-deep .owl-theme .owl-dots .owl-dot span {
-  background: #ffffff33;
+.proyect-card-description {
+  font-size: 17px;
+  line-height: 1.65;
+  color: $LightSlate;
+  margin: 0 0 20px;
 }
 
-.img-container {
-  width: 600px;
-  max-height: 320px;
-  overflow: auto;
-  border-radius: 3px;
+.proyect-card {
+  // Chips sit on the baseline of the card whatever the copy length, so rows
+  // of cards line up.
+  .proyect-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin: auto 0 0;
+    padding: 0;
+    list-style: none;
+  }
 }
 
-/* width */
+@media (max-width: 600px) {
+  .proyect-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .proyect-card-body {
+    padding: 20px;
+  }
+}
+
+/* Page scrollbar — kept from the previous implementation. */
 
 ::-webkit-scrollbar {
   width: 7px;
 }
 
-/* Track */
-
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #c8df52;
+  box-shadow: inset 0 0 5px $LightestNavy;
   border-radius: 3px;
 }
-
-/* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: $Green;
+  background: $GreenSoft;
   border-radius: 3px;
 }
-
-/* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
   background: $Green;
 }
+
+/* ---------------------------------------------------------------------------
+   LEGACY: styles for the carousel / alternating layout that is now commented
+   out in proyects.component.html. Uncomment both together to go back.
+   ---------------------------------------------------------------------------
+
+.proyects {
+  .proyect-container {
+    height: auto;
+    margin: 40px 0;
+    .proyect-info-left { width: 100%; margin-right: 0px; margin-left: 0px; display: table; }
+    .proyect-info-right { width: 100%; margin-left: 0px; margin-right: 0px; display: table; }
+    .proyect-box {
+      display: table-cell;
+      vertical-align: middle;
+      .feature-proyect {
+        text-align: center; font-size: 16px; font-weight: normal; color: $Green;
+        font-family: $CodeFont; margin-top: 0px; padding-top: 0; margin-bottom: 5px;
+      }
+      .proyect-name { text-align: center; font-size: 28px; margin: 0 0 10px; color: $LightestSlate; }
+      .proyect-description-box {
+        box-shadow: 0 10px 30px -15px $Shadow;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        position: relative; z-index: 2; padding: 20px;
+        background-color: $LightNavy; color: $LightSlate; font-size: 20px; border-radius: 3px;
+      }
+      .proyect-skills {
+        position: relative; z-index: 2; display: flex; flex-wrap: wrap;
+        padding: 0; margin: 15px 0 5px; list-style: none; align-items: center;
+        li { margin-right: 0; font-family: $CodeFont; font-size: 16px; color: $Slate;
+             margin-bottom: 7px; white-space: nowrap; display: flex; align-items: center; }
+      }
+      .proyect-links { margin-top: 10px; i { font-size: 22px; } }
+    }
+  }
+}
+
+.owl-carousel-o { width: 600px; }
+.img-feature-proyect-container { display: none; }
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .owl-carousel-o { display: none; }
+  .img-feature-proyect-container {
+    width: 50%; display: table !important; height: -webkit-fill-available;
+    .img-feature-proyect-box { display: table-cell; vertical-align: middle; }
+    .img-feature-proyect { width: 100%; }
+  }
+  .proyect-info-right, .proyect-info-left { width: 50%; }
+}
+
+@media (min-width: 768px) {
+  .proyect-info-right, .proyect-info-left { background-image: none !important; }
+}
+
+@media (max-width: 768px) {
+  .owl-carousel-o { display: none; }
+  .proyects {
+    .proyect-container {
+      height: 100% !important; margin: 33px 0 !important;
+      .proyect-info-left { width: 100%; }
+      .proyect-info-right { text-align: center; width: 100%; }
+      .proyect-description-box {
+        padding: 0px !important; box-shadow: none !important; position: relative;
+        z-index: 2; background-color: transparent !important; color: $LightSlate;
+        font-size: 20px; border-radius: 3px;
+      }
+      .proyect-info-right, .proyect-info-left {
+        text-align: center; display: block !important; margin: 0px !important;
+        background-size: cover; background-position: center; background-repeat: no-repeat;
+        border-radius: 3px;
+        .proyect-box { display: block; }
+      }
+      .img-feature-proyect-container { display: none; }
+    }
+    .proyect-info-right, .proyect-info-left { padding: 0px; }
+    .text-right, .text-left { text-align: center !important; }
+    .justify-content-end { justify-content: center !important; }
+    .justify-content-start { justify-content: center !important; }
+    .proyect-info-right .proyect-box, .proyect-info-left .proyect-box {
+      padding: 20px; background: rgba(242, 240, 236, 0.93);
+    }
+  }
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot.active span,
+::ng-deep .owl-theme .owl-dots .owl-dot:hover span { background-color: $Slate !important; }
+::ng-deep .owl-theme .owl-dots .owl-dot span { background: rgba(110, 115, 120, 0.3); }
+
+.img-container { width: 600px; max-height: 320px; overflow: auto; border-radius: 3px; }
+
+   --------------------------------------------------------------------------- */

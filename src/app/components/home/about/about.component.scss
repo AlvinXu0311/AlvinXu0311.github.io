@@ -18,7 +18,7 @@
 
         &:after{
             content: '';
-            border: 2px solid $Green;
+            border: 2px solid $GreenSoft;
             z-index: 0;
             display: block;
             position: relative;
@@ -38,32 +38,54 @@
 
     .skills-list{
         display: grid;
-        grid-template-columns: repeat(2,minmax(140px,200px));
-        overflow: hidden;
+        // 1fr columns instead of a 200px cap: the longer entries
+        // ("PyTorch / TensorFlow") used to wrap and break the row rhythm.
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 15px;
+        max-width: 520px;
         padding: 0;
         margin: 20px 0 0 0;
         list-style: none;
     }
 
     .skill-element{
-        position: relative;
+        // Flex + baseline keeps every ▹ on the text baseline; the old absolute
+        // ::before with line-height:12px floated above it.
+        display: flex;
+        align-items: baseline;
         margin-bottom: 10px;
-        padding-left: 20px;
         font-size: 16px;
         font-family: $CodeFont;
         color: $Slate;
+        line-height: 1.5;
+
         span{
           padding-bottom: 5px;
           font-size: 16px;
+          color: $Slate !important;  // ink text; the ▹ carries the colour
         }
 
         &:before {
             content: '▹';
-            position: absolute;
-            left: 0;
+            flex: 0 0 auto;
+            width: 20px;
             color: $Green;
             font-size: 14px;
-            line-height: 12px;
+        }
+
+        // Small components pick up the warmer Morandi hues, cycling with the
+        // technology chips. The hover underline follows its own ▹.
+        &:nth-child(4n + 2) {
+            &:before { color: $Sage; }
+            .underline:after { background: $Sage; }
+        }
+        &:nth-child(4n + 3) {
+            &:before { color: $Sand; }
+            .underline:after { background: $Sand; }
+        }
+        &:nth-child(4n + 4) {
+            &:before { color: $Clay; }
+            .underline:after { background: $Clay; }
         }
     }
 

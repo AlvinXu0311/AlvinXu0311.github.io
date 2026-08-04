@@ -1,14 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 
-$Navy         : #536fdf;
-$LightNavy    : #112240;
-$LightestNavy : #303C55;
-$Slate        : #C8DF52;
-$LightSlate   : #a8b2d1;
-$LightestSlate: #DBE8D8;
-$White        : #e6f1ff;
-$Green        : #FEDE00;
-$GreenOpacity : rgba(100,255,218,0.07);
+/* Morandi palette — light scheme built on 梦幻蓝 #99A4BC.
+   Variable names are kept for compatibility; the roles are now light-theme:
+   $Navy/$LightNavy/$LightestNavy = surfaces & borders (light -> darker),
+   $LightestSlate/$Slate/$LightSlate = text (darkest -> lightest). */
+
+$Navy         : #F5F2E9;  // page background — warm cream
+$LightNavy    : #EBE6D8;  // elevated surfaces (cards, menus)
+$LightestNavy : #D6CFBE;  // borders, rules, dividers
+$LightestSlate: #2F3538;  // headings — darkest ink
+$Slate        : #4C5155;  // body text
+$LightSlate   : #6E7378;  // secondary text
+$White        : #FDFCFA;  // paper white
+
+/* Accents. Each hue comes in two strengths:
+   *Soft = the Morandi swatch as given, for fills/borders (contrast doesn't apply);
+   plain = the same hue deepened so glyphs and text stay legible on $Navy. */
+$Green        : #57708F;  // theme color — 梦幻蓝 deepened for text contrast (4.5:1)
+$GreenSoft    : #99A4BC;  // 梦幻蓝
+$GreenOpacity : rgba(153, 164, 188, 0.18);
+$Sage         : #647A5B;  // 浅灰绿 deepened
+$SageSoft     : #BCCBB0;  // 浅灰绿
+$Sand         : #756741;  // 浅茶绿 deepened — labels, section numbers
+$SandSoft     : #D9D19B;  // 浅茶绿 — button fill, chips
+$SandDeepFill : #CFC589;  // 浅茶绿 one step down, for button hover/press
+$Clay         : #9A665C;  // 泡沫粉 deepened
+$ClaySoft     : #E4CECE;  // 泡沫粉
+$Shadow       : rgba(74, 80, 84, 0.22);
 
 $MainFont: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
 $CodeFont: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Monospace;

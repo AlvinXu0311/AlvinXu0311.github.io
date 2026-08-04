@@ -9,6 +9,8 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class ProyectsComponent implements OnInit {
 
+  // customOptions / imgContainer / debug() are only used by the carousel markup
+  // that is commented out in the template. Kept so it can be restored as-is.
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,

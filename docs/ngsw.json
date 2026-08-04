@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1781046315818,
+  "timestamp": 1785871373609,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,12 +12,12 @@
       },
       "urls": [
         "/index.html",
-        "/main.7deae1f21a6a4dfa.js",
+        "/main.a04293855e0176a2.js",
         "/manifest.webmanifest",
         "/polyfills.9d3408304e521a7d.js",
         "/runtime.d0bbad266080b324.js",
         "/scripts.68ed26d13e2edc19.js",
-        "/styles.1cd1d40c1e9b5c38.css"
+        "/styles.6afc3e577f978c22.css"
       ],
       "patterns": []
     },
@@ -167,7 +167,7 @@
     "/SFMono-Semibold.849266397229adad.woff": "999e816498b39e99896d09cb18614e5bb700fa8e",
     "/SFMono-SemiboldItalic.0ef5133ede504d56.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/SFMono-SemiboldItalic.33cb8d6968ae9130.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
-    "/assets/cv/Resume_Combined.pdf": "db4b1e8e802806c3d2f04da0558a7c4e068720ce",
+    "/assets/cv/Resume_Combined.pdf": "0248e267a8ffbb34bf6a69e8f7127da4e5fbc52c",
     "/assets/cv/Resume_Latest_SDE.pdf": "28239f2c270f9635b3a56f346f8005fef5484b22",
     "/assets/fonts/Calibre/Calibre-Light.ttf": "8eccfc3783b04d13dec5887a15c3e00fd28bef7c",
     "/assets/fonts/Calibre/Calibre-Light.woff": "e3fbab74fa86b97c78ad1b1965b327fe5b2a1adb",
@@ -213,7 +213,7 @@
     "/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "/assets/i18n/en.json": "9eebdabfc063029915f04216bd72cbe296809c83",
+    "/assets/i18n/en.json": "127d9580e31c7b58c4c07906c00383336f33b336",
     "/assets/icons/favicon.ico": "ac4dd9e74f4c4527a3d7484ed8e38de3c552a3cd",
     "/assets/icons/folder.svg": "cb35a410f96a1187d77f1cbcc6902693c11f4fcc",
     "/assets/images/Private_Banking_with_ML/capstone-design-post.jpeg": "5015082f5090cebcce2a62c845bc3f870990756f",
@@ -242,14 +242,14 @@
     "/fa-solid-900.6a636d7efad00430.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "/fa-solid-900.6bcd6c9c0a9fcfbf.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
     "/fa-solid-900.9d21645b52658faa.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
-    "/index.html": "5b00faffeaf23f3e5976511e811e89b5d3e22530",
-    "/main.7deae1f21a6a4dfa.js": "ec5089e39ea21103a72b0743bc10f1f9ece2686e",
-    "/manifest.webmanifest": "b69ec6f128de85a44d070dd8c01c1bd0ec74b422",
+    "/index.html": "9251b151fc5966feabca8541c3190515b955e830",
+    "/main.a04293855e0176a2.js": "a98ed8da53a3215f7504a927a1da6ee984d85518",
+    "/manifest.webmanifest": "f632e2c43d16955b2dac29a5f11cadfc1b926abf",
     "/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "/polyfills.9d3408304e521a7d.js": "0a5250cab6a1dddd25e9fefec5fe407a6ac41315",
     "/runtime.d0bbad266080b324.js": "2017f08ad4eccd6852a355452cf65a274ee134b7",
     "/scripts.68ed26d13e2edc19.js": "cffb6dcf1e317b2859024c20248dd0c50ce6b885",
-    "/styles.1cd1d40c1e9b5c38.css": "0eccb38991e792f4d4392737f958ef3e79286d9f"
+    "/styles.6afc3e577f978c22.css": "ac7dfa51410c041e43a2d6753503f7686a19ccd9"
   },
   "navigationUrls": [
     {

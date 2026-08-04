@@ -14,21 +14,23 @@
         border: none;
     }
 
-    a.active{
-        background-color: $LightNavy !important;
-        color: $Green !important;
-        border-color: transparent !important;
-        border-radius: 0px;
-    }
-    
-    a:hover{
-        background-color: $LightNavy !important;
-        color: $Green !important;
+    // Scoped to .nav-link (the company tabs) on purpose — these rules used to
+    // match every anchor in the panel, including the paper links in the copy.
+    a.nav-link.active{
+        background-color: rgba($SandSoft, 0.55) !important;
+        color: $Sand !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
 
-    a{
+    a.nav-link:hover{
+        background-color: rgba($SandSoft, 0.35) !important;
+        color: $Sand !important;
+        border-color: transparent !important;
+        border-radius: 0px;
+    }
+
+    a.nav-link{
         display: inline-block;
         -webkit-text-decoration: none;
         text-decoration: none;
@@ -64,7 +66,7 @@
         border-left: 2px solid $LightestNavy;
         border-left-width: 2px;
         border-left-style: solid;
-        border-left-color: rgb(48, 60, 85);
+        border-left-color: $LightestNavy;
     }
 }
 
