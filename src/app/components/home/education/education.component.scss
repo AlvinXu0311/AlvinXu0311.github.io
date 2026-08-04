@@ -1,0 +1,70 @@
+@import "./../../../../variables.scss";
+
+.education {
+    max-width: 900px;
+    margin: auto;
+
+    .education-list {
+        // Echoes the tab rail in the Experience section.
+        border-left: 2px solid $LightestNavy;
+        padding-left: 30px;
+    }
+
+    .education-entry + .education-entry {
+        margin-top: 30px;
+    }
+
+    .education-degree {
+        color: $LightestSlate;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.35;
+        margin-bottom: 4px;
+    }
+
+    .education-school {
+        font-size: 17px;
+        color: $Green;
+        margin-bottom: 4px;
+    }
+
+    .education-date {
+        font-family: $CodeFont;
+        font-size: 15px;
+        font-weight: normal;
+        letter-spacing: 0.05em;
+        color: $LightSlate;
+        margin-bottom: 16px;
+    }
+
+    .education-detail {
+        position: relative;
+        padding-left: 26px;
+        margin-bottom: 12px;
+        font-size: 17px;
+        line-height: 1.6;
+
+        &:before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: $Green;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .education {
+        .education-list {
+            padding-left: 20px;
+        }
+
+        .education-detail {
+            padding-left: 22px;
+        }
+    }
+}

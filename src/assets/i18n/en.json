@@ -1,82 +1,111 @@
 {
   "Header.Item1": "About me",
   "Header.Item2": "Experience",
-  "Header.Item3": "Projects",
-  "Header.Item4": "Contact",
+  "Header.Item3": "Education",
+  "Header.Item4": "Projects",
+  "Header.Item5": "Contact",
   "Header.cvBtn": "Resume",
   "Header.cvName": "Resume_Combined.pdf",
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "Across <span class='underline'>3+ years in industry and research</span>, I build <span class='underline'>backend systems with Go/Python/Java</span>, <span class='underline'>full-stack apps with Angular/React</span>, and <span class='underline'>ML & LLM-powered applications</span> — from data pipelines to RAG systems.",
+  "Banner.Description": "I work across <span class='underline'>software development</span> and <span class='underline'>AI/ML research</span>. Over <span class='underline'>3+ years in industry</span> I built backend systems in Go/Python/Java and full-stack apps in Angular/React; as a <span class='underline'>research assistant at WPI</span> I do <span class='underline'>LLM-related research</span>, including LLM evaluation benchmarks, agentic pipelines, and RAG systems, alongside probabilistic time-series forecasting.",
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "With 3+ years of software development experience, I've worked as a <span class='underline'>full-stack developer using Angular/React</span> for frontend and a <span class='underline'>backend engineer with Golang, Python, and Java</span> for building scalable systems. I have worked extensively on <span class='underline'>REST APIs, CI/CD pipelines, and containerization with Docker/Kubernetes</span> to improve system efficiency, scalability, and maintainability.",
-    "I also have hands-on experience in <span class='underline'>machine learning and LLM applications</span> — building predictive models, ETL/data pipelines, and <span class='underline'>retrieval-augmented (RAG) systems</span>. As a <span class='underline'>Research Assistant at WPI</span>, I currently work on probabilistic time-series forecasting (<a class='paper-link' href='https://arxiv.org/abs/2511.18539v2' target='_blank' rel='noopener noreferrer'>TimePre</a>, accepted at TMLR) and scalable computer-vision benchmarks (<a class='paper-link' href='https://arxiv.org/abs/2606.00931v1' target='_blank' rel='noopener noreferrer'>CV-Arena</a>).",
-    "Some of the technologies that I have trained and worked on include :"
+    "I'm a software engineer with <span class='underline'>3+ years of industry experience</span>, working as a <span class='underline'>full-stack developer in Angular/React</span> and a <span class='underline'>backend engineer in Golang, Python, and Java</span>. Most of that time went into <span class='underline'>REST APIs, CI/CD pipelines, and containerization with Docker/Kubernetes</span> for infrastructure provisioning at scale.",
+    "Alongside that, I work on <span class='underline'>machine learning and LLM systems</span>: predictive models, ETL/data pipelines, and <span class='underline'>retrieval-augmented (RAG) and agentic applications</span>. As a <span class='underline'>Research Assistant at WPI</span>, my work includes <a class='paper-link' href='https://arxiv.org/abs/2511.18539v2' target='_blank' rel='noopener noreferrer'>TimePre</a> (accepted at TMLR), a probabilistic time-series forecasting framework; <a class='paper-link' href='https://arxiv.org/abs/2606.00931v1' target='_blank' rel='noopener noreferrer'>CV-Arena</a>, an <span class='underline'>LLM-driven evaluation benchmark</span> whose agentic pipeline curates image data to benchmark vision-language models; and a position paper auditing <span class='underline'>RLHF-trained LLM agents</span> as negotiators.",
+    "Some of the technologies I have worked with:"
   ],
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
-      "Tab": "WPI",
+      "Tab": "WPI · Research",
       "Title": "Research Assistant",
+      "Company": "Worcester Polytechnic Institute",
       "Date": "July 2025 - Current",
       "Description": [
-        "<a class='paper-link' href='https://arxiv.org/abs/2511.18539v2' target='_blank' rel='noopener noreferrer'>TimePre</a> <span class='paper-badge'>Accepted at TMLR</span>: Developed an ML framework for probabilistic forecasting with multi-hypothesis density estimation and a channel-based reversible normalization technique to mitigate distribution shifts and preserve long-horizon non-stationary patterns.",
-        "<a class='paper-link' href='https://arxiv.org/abs/2606.00931v1' target='_blank' rel='noopener noreferrer'>CV-Arena</a>: Built the Pro-Edit dataset and a Resolution Baseline Agent, introducing a secure, scalable benchmark with a feedback-loop agentic architecture for collecting and curating high-fidelity image data.",
-        "<span class='paper-title'>Position Paper – Moral Auditing of LLM Agents</span>: Proposed a framework for auditing RLHF-trained LLMs as non-neutral negotiation agents, designing a five-scenario bargaining and persuasion stress test that revealed a cooperative-assistant prior weakening under asymmetric pressure."
+        "<span class='paper-lead'><a class='paper-link' href='https://arxiv.org/abs/2511.18539v2' target='_blank' rel='noopener noreferrer'>TimePre</a><span class='paper-badge'>Accepted at TMLR</span></span>Developed an ML framework for probabilistic forecasting with multi-hypothesis density estimation and a channel-based reversible normalization technique to mitigate distribution shifts and preserve long-horizon non-stationary patterns.",
+        "<span class='paper-lead'><a class='paper-link' href='https://arxiv.org/abs/2606.00931v1' target='_blank' rel='noopener noreferrer'>CV-Arena</a></span>Built the Pro-Edit dataset and a Resolution Baseline Agent, introducing a secure, scalable benchmark with a feedback-loop agentic architecture for collecting and curating high-fidelity image data.",
+        "<span class='paper-lead'><span class='paper-title'>Moral Auditing of LLM Agents (Position Paper)</span></span>Proposed a framework for auditing RLHF-trained LLMs as non-neutral negotiation agents, designing a five-scenario bargaining and persuasion stress test that revealed a cooperative-assistant prior weakening under asymmetric pressure."
       ]
     },
     {
       "Tab": "Dell",
       "Title": "Software Development Engineer I",
-      "Date": "Mar 2021 - Dec 2023",
+      "Company": "Dell Technologies",
+      "Date": "Jun 2021 - Dec 2023",
       "Description": [
-        "In Dell-APEX day1 team, eliminated manual configuration overhead by building automated APIs (Python/Go/Java) for Azure HCI integration. Automated setup lifecycle for Windows servers — domain joining, security hardening, cluster config validation — reducing deployment timelines by 20%.",
+        "In Dell-APEX day1 team, eliminated manual configuration overhead by building automated APIs (Python/Go/Java) for Azure HCI integration. Automated the setup lifecycle for Windows servers (domain joining, security hardening, cluster config validation), reducing deployment timelines by 20%.",
         "Streamlined initial server setup by creating a React/Angular/TypeScript UI for Day 1 operations with dynamic forms, validation flows, and data visualizations, reducing configuration errors and increasing efficiency by 15%.",
         "Led a team of 4 building a Jenkins CI/CD pipeline for sanity testing dev images, reducing manual effort and boosting code quality by 30%.",
         "Automated Day-1 infrastructure provisioning by developing containerized microservices (Docker/Kubernetes), integrating MongoDB and PostgreSQL APIs for configuration storage, validation, and retrieval, reducing service start failure rate by 25%."
       ]
     },
     {
-      "Tab": "Dell",
+      "Tab": "Dell · Intern",
       "Title": "Software Development Engineer Internship",
+      "Company": "Dell Technologies",
       "Date": "Mar 2021 - May 2021",
       "Description": [
         "Engineered Python/Java APIs to automate the Day-1 setup for VxRail HCI systems, reducing incompatible configuration errors by 15%.",
         "Built Angular UI components for Day 1 & Day 2 operations teams to pre-config server settings (VLAN, authentication, backup), reducing manual setup steps and boosting configuration efficiency by 10%."
       ]
-    },
+    }
+  ],
+  "Education.Title": "Education",
+  "Education.Items": [
     {
-      "Tab": "WPI",
-      "Title": "M.S. in Information Technology — System Design & AI",
+      "Degree": "M.S. in Information Technology, System Design & AI",
+      "School": "Worcester Polytechnic Institute",
       "Date": "Jan 2024 - Dec 2025",
-      "Description": [
-        "GPA: 3.82 / 4.0",
+      "Details": [
         "Coursework: LLM, Application Development, Machine Learning, Data Mining, Data Visualization, SQL"
       ]
     },
     {
-      "Tab": "Penn State",
-      "Title": "B.S. in Computer Science, Minor in Mathematics",
+      "Degree": "B.S. in Computer Science, Minor in Mathematics",
+      "School": "Pennsylvania State University",
       "Date": "Aug 2015 - May 2020",
-      "Description": [
+      "Details": [
         "Coursework: System Programming, Network Programming, Algorithm, Data Structure, Statistics"
       ]
     }
   ],
-
   "FeatureProjects.Title": "My projects",
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
       "Title": "Agentic Advising Assistant",
-      "Description": "Architected a production-grade agentic advising platform using FastAPI, LangChain, and Google Gemini 2.5 Pro — orchestrating an Intent Classification Agent and a ReAct Adviser Agent over a Hybrid RAG pipeline (SQLite + ChromaDB) to automate complex academic advising workflows.<br>Built a multimodal PDF extraction pipeline via Gemini Vision API, optimized the ReAct loop with 7 specialized tools, real-time SSE streaming, and Redis session memory; containerized with Docker Compose, achieving ~10s avg latency and a projected 60% reduction in manual advising workload. Worcester, MA",
+      "Description": "Architected a production-grade agentic advising platform using FastAPI, LangChain, and Google Gemini 2.5 Pro, orchestrating an Intent Classification Agent and a ReAct Adviser Agent over a Hybrid RAG pipeline (SQLite + ChromaDB) to automate complex academic advising workflows.<br>Built a multimodal PDF extraction pipeline via Gemini Vision API, optimized the ReAct loop with 7 specialized tools, real-time SSE streaming, and Redis session memory; containerized with Docker Compose, achieving ~10s avg latency and a projected 60% reduction in manual advising workload. Worcester, MA",
       "imgs": [
         "assets/images/coming-soon.jpg"
       ],
-      "Technologies": ["FastAPI", "LangChain", "RAG", "ChromaDB", "Redis", "Docker"],
+      "Technologies": [
+        "FastAPI",
+        "LangChain",
+        "RAG",
+        "ChromaDB",
+        "Redis",
+        "Docker"
+      ],
       "showImage": false,
       "ghLink": "https://github.com/AlvinXu0311/AI-Adviser",
+      "demoLink": ""
+    },
+    {
+      "Title": "MoeLingo: Local LLM Overlay Translator",
+      "Description": "Built a real-time overlay translator for Japanese visual novels that runs entirely on the user's machine: PaddleOCR reads text straight from the game window, a local LLM served by Ollama translates it, and the result is drawn in a floating overlay, so no text ever leaves the device.<br>Not tied to any single game: window-relative capture regions, de-duplicated output, and in-app configuration of the model, OCR language, and target/UI language let it point at any window. Python on Windows via the Win32 PrintWindow API.",
+      "imgs": [
+        "assets/images/coming-soon.jpg"
+      ],
+      "Technologies": [
+        "Python",
+        "Local LLM",
+        "Ollama",
+        "PaddleOCR",
+        "Win32"
+      ],
+      "showImage": false,
+      "ghLink": "https://github.com/AlvinXu0311/MoeLingo",
       "demoLink": ""
     },
     {
@@ -85,7 +114,12 @@
       "imgs": [
         "assets/images/coming-soon.jpg"
       ],
-      "Technologies": ["Vue.js", "Node.js", "Blockchain", "XRP"],
+      "Technologies": [
+        "Vue.js",
+        "Node.js",
+        "Blockchain",
+        "XRP"
+      ],
       "showImage": false,
       "ghLink": "https://github.com/AlvinXu0311/Flare-x-XRPL-Hackathon",
       "demoLink": ""
@@ -96,7 +130,12 @@
       "imgs": [
         "assets/images/andirod_dev/Andriod_Bank.png"
       ],
-      "Technologies": ["Java", "Python", "JavaScript", "SQL"],
+      "Technologies": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "SQL"
+      ],
       "showImage": false,
       "ghLink": "https://github.com/AlvinXu0311/DB_Simple_App",
       "demoLink": ""
@@ -107,7 +146,12 @@
       "imgs": [
         "assets/images/coming-soon.jpg"
       ],
-      "Technologies": ["TensorFlow", "MediaPipe", "NumPy", "Deep Learning"],
+      "Technologies": [
+        "TensorFlow",
+        "MediaPipe",
+        "NumPy",
+        "Deep Learning"
+      ],
       "showImage": false,
       "ghLink": "",
       "demoLink": ""
@@ -118,7 +162,10 @@
       "imgs": [
         "assets/images/Private_Banking_with_ML/capstone-design-post.jpeg"
       ],
-      "Technologies": ["Python", "TensorFlow"],
+      "Technologies": [
+        "Python",
+        "TensorFlow"
+      ],
       "showImage": false,
       "ghLink": "",
       "demoLink": ""
@@ -131,7 +178,12 @@
       "Description": "Applied PCA + polynomial feature expansion; cleaned missing data. Trained XGBoost & Random Forest for price forecasting and trend classification. Achieved R²=0.91, MAE=28.3, 87% trend-classification accuracy. Worcester, MA",
       "ghLink": "",
       "demoLink": "",
-      "Technologies": ["Python", "XGBoost", "Pandas", "NumPy"]
+      "Technologies": [
+        "Python",
+        "XGBoost",
+        "Pandas",
+        "NumPy"
+      ]
     }
   ],
   "Contact.Pretitle": "Then",

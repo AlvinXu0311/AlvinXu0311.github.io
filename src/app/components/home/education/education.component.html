@@ -1,0 +1,28 @@
+<section class="section" id="education">
+  <div class="container education">
+    <div class="section-box">
+      <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="e-font section-title">
+          <span class="code-font n-section-title">03.</span>
+          {{ "Education.Title" | translate }}
+        </h3>
+      </div>
+
+      <!-- Same type hierarchy as the Experience panel (degree | school, date,
+           ▹ details) with the left rule echoing that section's tab rail. -->
+      <div class="education-list" data-aos="fade-up" data-aos-duration="1000">
+        <div
+          *ngFor="let school of 'Education.Items' | translate"
+          class="education-entry"
+        >
+          <h4 class="education-degree">{{ school.Degree }}</h4>
+          <div class="education-school">{{ school.School }}</div>
+          <h5 class="education-date">{{ school.Date }}</h5>
+          <p *ngFor="let detail of school.Details" class="education-detail">
+            {{ detail }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -10,7 +10,9 @@
 
     ul{
         display: block;
-        width: 160px;
+        // Wide enough for the disambiguated labels ("WPI · Research"), which
+        // no longer fit the old 160px column.
+        width: 190px;
         border: none;
     }
 
@@ -77,9 +79,9 @@
 
     .title-tab-content{
         color: $LightestSlate;
-        font-size: 22px;
-        font-weight: 500;
-        margin-bottom: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 4px;
 
         .company-tab-content{
             color: $Green;
@@ -88,21 +90,22 @@
 
     .job-time{
         font-family: $CodeFont;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: normal;
             -webkit-letter-spacing: 0.05em;
         -moz-letter-spacing: 0.05em;
         -ms-letter-spacing: 0.05em;
         letter-spacing: 0.05em;
         color: $LightSlate;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
-    
+
     .job-description{
         position: relative;
-        padding-left: 30px;
-        margin-bottom: 10px;
-        font-size: 20px;
+        padding-left: 26px;
+        margin-bottom: 12px;
+        font-size: 17px;
+        line-height: 1.6;
 
         &:before {
             content: '▹';

@@ -221,13 +221,15 @@
     }
 }
 
-@media (max-width: 827px) {
+// Was 827px, but five nav items plus the Resume button need ~770px and the
+// container is only 600-700px wide down there — the row overflowed.
+@media (max-width: 1000px) {
     nav .nav {
         display: none;
     }
 }
 
-@media (min-width: 827px) {
+@media (min-width: 1000px) {
     .menu-wrapper,
     .menu-responsive {
         display: none;

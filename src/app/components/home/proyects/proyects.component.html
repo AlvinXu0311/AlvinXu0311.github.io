@@ -3,7 +3,7 @@
         <div class="section-box">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="section-title">
-                    <span class='n-section-title'>03.</span> {{"FeatureProjects.Title" | translate}}
+                    <span class='n-section-title'>04.</span> {{"FeatureProjects.Title" | translate}}
                 </h3>
             </div>
 
@@ -16,8 +16,11 @@
                     </div>
 
                     <div class="proyect-card-body">
+                        <!-- Title and links share one row: the old separate
+                             "Featured Project" label row cost every card a line
+                             while saying the same thing five times. -->
                         <div class="proyect-card-top">
-                            <span class="proyect-card-label">{{"FeatureProjects.Label" | translate}}</span>
+                            <h4 class="proyect-card-title">{{project.Title}}</h4>
                             <div class="proyect-card-links">
                                 <a *ngIf="project['demoLink']" [href]="project['demoLink']" target="_blank"
                                     rel="noopener noreferrer" [attr.aria-label]="project.Title + ' demo'">
@@ -29,8 +32,6 @@
                                 </a>
                             </div>
                         </div>
-
-                        <h4 class="proyect-card-title">{{project.Title}}</h4>
 
                         <p class="proyect-card-description" [innerHTML]="project.Description"></p>
 

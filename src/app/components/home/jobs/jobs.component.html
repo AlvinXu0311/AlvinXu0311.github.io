@@ -24,10 +24,9 @@
             <ng-template ngbNavContent>
               <h4 class="title-tab-content">
                 {{ job.Title }} |
-                <span class="company-tab-content">{{ job.Tab }}</span>
+                <span class="company-tab-content">{{ job.Company || job.Tab }}</span>
               </h4>
               <h5 class="job-time">{{ job.Date }}</h5>
-              <!-- {{job.Description | json}} -->
               <p
                 *ngFor="
                   let jobDescriptionParagraph of job.Description;
@@ -42,6 +41,9 @@
         </ul>
         <div [ngbNavOutlet]="nav" class="mt-2"></div>
       </div>
+
+      <!-- Education is two short entries: tabs would only hide them behind a
+           click, so they sit flat below the work history. -->
     </div>
   </div>
 </section>

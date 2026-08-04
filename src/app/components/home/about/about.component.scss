@@ -3,12 +3,13 @@
 .about{
 
     .about-description{
-        margin-top: 30px;
+        margin-top: 24px;
         max-width: 650px;
 
         p{
-            font-size: 20px;
-            line-height: 1.8;
+            font-size: 17px;
+            line-height: 1.65;
+            margin-bottom: 14px;
         }
     }
 
@@ -40,11 +41,13 @@
         display: grid;
         // 1fr columns instead of a 200px cap: the longer entries
         // ("PyTorch / TensorFlow") used to wrap and break the row rhythm.
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        // Fits a third column whenever the copy column is wide enough (4 rows
+        // instead of 6); 200px is above the longest label so nothing wraps.
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         column-gap: 15px;
-        max-width: 520px;
+        max-width: 660px;
         padding: 0;
-        margin: 20px 0 0 0;
+        margin: 18px 0 0 0;
         list-style: none;
     }
 
@@ -53,15 +56,15 @@
         // ::before with line-height:12px floated above it.
         display: flex;
         align-items: baseline;
-        margin-bottom: 10px;
-        font-size: 16px;
+        margin-bottom: 8px;
+        font-size: 15px;
         font-family: $CodeFont;
         color: $Slate;
         line-height: 1.5;
 
         span{
           padding-bottom: 5px;
-          font-size: 16px;
+          font-size: 15px;
           color: $Slate !important;  // ink text; the ▹ carries the colour
         }
 
@@ -75,17 +78,19 @@
 
         // Small components pick up the warmer Morandi hues, cycling with the
         // technology chips. The hover underline follows its own ▹.
+        .underline { --underline-color: #{$Green}; }
+
         &:nth-child(4n + 2) {
             &:before { color: $Sage; }
-            .underline:after { background: $Sage; }
+            .underline { --underline-color: #{$Sage}; }
         }
         &:nth-child(4n + 3) {
             &:before { color: $Sand; }
-            .underline:after { background: $Sand; }
+            .underline { --underline-color: #{$Sand}; }
         }
         &:nth-child(4n + 4) {
             &:before { color: $Clay; }
-            .underline:after { background: $Clay; }
+            .underline { --underline-color: #{$Clay}; }
         }
     }
 

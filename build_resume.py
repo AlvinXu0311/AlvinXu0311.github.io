@@ -160,7 +160,7 @@ lead("Moral Auditing of LLM Agents (Position Paper): ", "Proposed a framework fo
      "non-neutral negotiation agents; designed a five-scenario bargaining and persuasion stress test revealing a "
      "cooperative-assistant prior that helps in low-conflict settings but weakens under asymmetric pressure.")
 
-heading("Full-Stack Software Development Engineer", "Mar 2021 - Dec 2023",
+heading("Full-Stack Software Development Engineer", "Jun 2021 - Dec 2023",
         "Dell Technologies, Infrastructure Solutions Group", "Shanghai, China")
 lead("Back-End APIs: ", "Built automated Python/Go/Java REST APIs for Azure HCI and VxRail Day-1 provisioning - "
      "covering Windows domain joining, security hardening, cluster validation, network/storage configuration, and "
