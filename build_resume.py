@@ -141,7 +141,7 @@ heading("Worcester Polytechnic Institute, Worcester, MA", "Jan 2024 - Dec 2025",
         "M.S. in Information Technology - System Design & Artificial Intelligence", "GPA: 3.82 / 4.0")
 bullet("Coursework: LLM, Application Development, Machine Learning, Data Mining, Data Visualization, SQL, Database Systems")
 heading("Pennsylvania State University, State College, PA", "Aug 2015 - May 2020",
-        "B.S. in Computer Science, Minor in Mathematics")
+        "B.S. in Computer Science")
 bullet("Coursework: Data Structures, Algorithms, System Programming, Network Programming, Statistics")
 
 # ---------------- EXPERIENCE ----------------
